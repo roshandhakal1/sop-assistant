@@ -10,6 +10,15 @@ from pathlib import Path
 from datetime import datetime
 import hashlib
 from typing import Dict, List, Tuple
+
+# Fix for ChromaDB SQLite version issue
+try:
+    __import__('pysqlite3')
+    import sys
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+except ImportError:
+    pass
+
 import chromadb
 from sentence_transformers import SentenceTransformer
 import docx

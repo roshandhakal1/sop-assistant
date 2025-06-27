@@ -7,7 +7,6 @@ Clean, minimal, and elegant interface following Apple's design principles
 import os
 import streamlit as st
 from pathlib import Path
-import chromadb
 import time
 from sentence_transformers import SentenceTransformer
 from typing import List, Dict
@@ -18,6 +17,13 @@ import docx
 import PyPDF2
 import io
 from sop_fetcher import SOPFetcher
+
+# Fix for ChromaDB SQLite version issue
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+import chromadb
 
 # Load environment variables
 try:
