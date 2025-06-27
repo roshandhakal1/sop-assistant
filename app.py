@@ -34,7 +34,9 @@ except ImportError:
 
 class SOPAssistant:
     def __init__(self):
-        self.openai_client = OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
+        # Get API key from Streamlit secrets or environment
+        api_key = st.secrets.get("OPENAI_API_KEY", os.environ.get('OPENAI_API_KEY'))
+        self.openai_client = OpenAI(api_key=api_key)
         if 'embedding_model' not in st.session_state:
             st.session_state.embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
         self.embedding_model = st.session_state.embedding_model
@@ -816,9 +818,11 @@ def main():
     </style>
     """, unsafe_allow_html=True)
     
-    # Check API key
-    if not os.environ.get('OPENAI_API_KEY'):
-        st.error("⚠️ OpenAI API key required")
+    # Check API key from Streamlit secrets or environment
+    api_key = st.secrets.get("OPENAI_API_KEY", os.environ.get('OPENAI_API_KEY'))
+    if not api_key:
+        st.error("⚠️ OpenAI API key required. Please add it to Streamlit secrets.")
+        st.info("Go to App Settings → Secrets and add: OPENAI_API_KEY = 'your-key-here'")
         st.stop()
     
     # Initialize
