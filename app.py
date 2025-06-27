@@ -77,87 +77,119 @@ class SOPAssistant:
         except:
             return []
     
-    def generate_response(self, query: str, chunks: List[Dict], uploaded_context: str = "", total_sops: int = 0):
-        if not chunks and not uploaded_context:
-            return "I couldn't find relevant information in your SOPs or uploaded documents."
-        
+    def generate_response(self, query: str, chunks: List[Dict], uploaded_context: str = "", total_sops: int = 0, conversation_history: List[Dict] = None):
         context = ""
         
         # Add uploaded document context first (higher priority)
         if uploaded_context:
-            context += f"UPLOADED DOCUMENTS FROM USER:\n{uploaded_context[:8000]}\n\n"
+            context += f"UPLOADED DOCUMENTS FROM USER:\n{uploaded_context[:12000]}\n\n"
         
-        # Add SOP context (only if needed)
+        # Add SOP context (expand context size)
         if chunks:
-            context += "ADDITIONAL SOP DATABASE DOCUMENTS (use only if specifically asked about SOPs):\n" + "\n\n".join([
-                f"Database Document: {chunk['metadata']['source']}\n{chunk['text'][:500]}"
-                for chunk in chunks[:3]
+            context += "SOP DATABASE DOCUMENTS:\n" + "\n\n".join([
+                f"Document: {chunk['metadata']['source']}\n{chunk['text'][:800]}"
+                for chunk in chunks[:5]
             ])
         
         # Check if query is asking for total count
         if any(phrase in query.lower() for phrase in ["how many", "total count", "number of sop", "count of sop"]) and total_sops > 0:
             context = f"IMPORTANT: The total number of SOPs in the system is {total_sops}.\n\n" + context
         
-        # Create focused prompt based on what's available
+        # Build conversation context
+        conversation_context = ""
+        if conversation_history and len(conversation_history) > 0:
+            conversation_context = "PREVIOUS CONVERSATION CONTEXT:\n"
+            # Include last 4 messages (2 exchanges) for context
+            recent_messages = conversation_history[-4:] if len(conversation_history) > 4 else conversation_history
+            for msg in recent_messages:
+                role = "User" if msg["role"] == "user" else "Assistant"
+                content = msg["content"][:600] + "..." if len(msg["content"]) > 600 else msg["content"]
+                conversation_context += f"{role}: {content}\n\n"
+            conversation_context += "---\n\n"
+        
+        # Create comprehensive prompt
         if uploaded_context and chunks:
-            # When both uploaded docs and SOPs are available, strongly prioritize uploaded docs
-            prompt = f"""You are analyzing uploaded documents and some SOP documents to answer this question: "{query}"
+            prompt = f"""{conversation_context}You are a professional SOP assistant with access to uploaded documents and SOP database. 
+
+Current question: "{query}"
 
 {context}
 
-IMPORTANT: Focus primarily on the UPLOADED DOCUMENT CONTENT. Only use SOP information if it directly relates to the uploaded documents or if the question specifically asks about SOPs.
-
-Please provide an answer that:
-1. **PRIMARILY** analyzes the uploaded document content in relation to the question
-2. Focuses on information directly from the uploaded documents
-3. Only mentions SOP information if it's directly relevant to the uploaded documents
-4. Gives specific details from the uploaded documents
-5. Clearly indicates which uploaded document you're referencing"""
+Instructions:
+1. Consider the conversation history above when answering
+2. Provide EXTREMELY comprehensive, detailed responses (aim for 500-2000+ words - be thorough!)
+3. If uploaded documents are available, prioritize them but also reference SOPs when relevant
+4. Give specific examples, step-by-step guidance, and practical implementation details
+5. Reference specific documents you're using and quote relevant sections
+6. If this is a follow-up question, acknowledge previous context and build upon it extensively
+7. Include background information, context, best practices, and potential pitfalls
+8. Use multiple sections, bullet points, numbered lists, and detailed explanations"""
         
         elif uploaded_context:
-            # Count number of documents by counting "=== DOCUMENT" occurrences
             doc_count = uploaded_context.count("=== DOCUMENT")
             doc_text = "documents" if doc_count > 1 else "document"
             
-            prompt = f"""You are analyzing {doc_count} user-uploaded {doc_text} to answer this question: "{query}"
+            prompt = f"""{conversation_context}You are analyzing {doc_count} uploaded {doc_text}.
+
+Current question: "{query}"
 
 {context}
 
-🚨 CRITICAL INSTRUCTIONS - READ CAREFULLY:
-- ONLY analyze content under "UPLOADED DOCUMENTS FROM USER" 
-- COMPLETELY IGNORE any "ADDITIONAL SOP DATABASE DOCUMENTS" section
-- The user uploaded {doc_count} specific document(s) - you must analyze ALL of them
-- Do NOT mention any documents from the SOP database
-- Focus exclusively on the user's uploaded files
+Instructions:
+1. Consider the conversation history above when answering
+2. Provide EXTREMELY comprehensive, detailed analysis (aim for 500-2000+ words - be thorough!)
+3. Analyze the uploaded {doc_text} thoroughly with deep insights
+4. Give specific details, examples, and quotes from the documents
+5. If this is a follow-up question, build upon previous responses extensively
+6. Structure your response with clear headings, bullet points, and multiple sections
+7. Include context, implications, best practices, and actionable recommendations
+8. Provide detailed explanations and comprehensive coverage of all relevant aspects"""
+        
+        elif chunks:
+            prompt = f"""{conversation_context}You are a professional SOP assistant.
 
-REQUIRED ANALYSIS FORMAT:
-1. **Start by listing the {doc_count} uploaded document name(s) you are analyzing**
-2. **Analyze each uploaded document separately with clear headings**
-3. **Provide detailed information from each document**
-4. **Compare/contrast the documents if there are multiple**
-5. **Ensure you cover ALL {doc_count} uploaded document(s) completely**
+Current question: "{query}"
 
-Remember: Only analyze the user's uploaded files, not any database documents!"""
+{context}
+
+Instructions:
+1. Consider the conversation history above when answering
+2. Provide EXTREMELY comprehensive, detailed responses (aim for 500-2000+ words - be thorough!)
+3. Give specific step-by-step procedures with detailed explanations
+4. Reference the SOP documents you're using and quote relevant sections
+5. If this is a follow-up question, acknowledge and build upon previous context extensively
+6. Include practical examples, tips, best practices, and potential challenges
+7. Provide background context, detailed explanations, and comprehensive coverage
+8. Use multiple sections, bullet points, and structured formatting for clarity"""
         
         else:
-            prompt = f"""Answer this question using the SOP documents provided: "{query}"
+            prompt = f"""{conversation_context}You are a professional SOP assistant.
 
-{context}
+Current question: "{query}"
 
-Provide a clear, professional answer with specific steps if applicable."""
+Instructions:
+1. Consider the conversation history above when answering
+2. Provide helpful guidance based on general SOP best practices
+3. Give EXTREMELY comprehensive responses (aim for 500-2000+ words - be thorough!)
+4. If this is a follow-up question, acknowledge previous context extensively
+5. Include detailed explanations, best practices, and comprehensive guidance
+6. Use multiple sections, examples, and structured formatting for clarity
+7. Ask clarifying questions if needed, but provide extensive information regardless"""
         
         return prompt
 
-    def stream_response(self, prompt: str, model: str = "gpt-4o-mini"):
+    def stream_response(self, messages: List[Dict], model: str = "gpt-4o-mini"):
         try:
+            # Set max tokens based on model
+            max_tokens = 16000 if "gpt-4o" in model else 4000  # Max out the tokens
+            
             stream = self.openai_client.chat.completions.create(
                 model=model,
-                messages=[
-                    {"role": "system", "content": "You are a professional SOP assistant. Provide clear, actionable guidance based on the provided documents."},
-                    {"role": "user", "content": prompt}
-                ],
+                messages=messages,
                 stream=True,
-                temperature=0.3
+                temperature=0.3,
+                max_tokens=max_tokens,  # Maxed out token limit
+                top_p=0.9
             )
             
             for chunk in stream:
@@ -193,8 +225,8 @@ def generate_chat_title(message: str) -> str:
 
 def main():
     st.set_page_config(
-        page_title="SOP Assistant",
-        page_icon="🧠",
+        page_title="SOP Intelligence Hub",
+        page_icon="🚀",
         layout="wide",
         initial_sidebar_state="expanded"
     )
@@ -819,8 +851,8 @@ def main():
     st.markdown("""
     <div class="app-header">
         <div class="header-content">
-            <h1>🧠 SOP Assistant</h1>
-            <p class="header-subtitle">Your intelligent guide to Standard Operating Procedures</p>
+            <h1>🚀 SOP Intelligence Hub</h1>
+            <p class="header-subtitle">Advanced AI-Powered Standard Operating Procedure Assistant | Comprehensive Analysis & Expert Guidance</p>
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -830,7 +862,7 @@ def main():
         # Header section
         st.markdown("""
         <div style="text-align: center; padding: 1rem 0; margin-bottom: 1rem;">
-            <h2 style="margin: 0; color: var(--text-primary); font-size: 1.25rem;">💬 SOP Assistant</h2>
+            <h2 style="margin: 0; color: var(--text-primary); font-size: 1.25rem;">🚀 Intelligence Hub</h2>
         </div>
         """, unsafe_allow_html=True)
         
@@ -1038,8 +1070,8 @@ def main():
         # Welcome message
         st.markdown("""
         <div class="welcome-container">
-            <h3>👋 Welcome to SOP Assistant</h3>
-            <p>Ask me anything about your Standard Operating Procedures or upload a document for additional context.</p>
+            <h3>🚀 Welcome to SOP Intelligence Hub</h3>
+            <p>Your advanced AI-powered assistant for comprehensive Standard Operating Procedure analysis, guidance, and expert consultation. Upload documents for deep analysis or ask questions for detailed, professional insights.</p>
         </div>
         """, unsafe_allow_html=True)
         
@@ -1119,12 +1151,32 @@ def main():
                                     sop_chunks = st.session_state.assistant.search_sops(new_content)
                                     all_sources_edit = document_sources_edit + sop_chunks
                                     
-                                    ai_prompt = st.session_state.assistant.generate_response(new_content, sop_chunks, uploaded_context_edit, sop_count)
+                                    # Get conversation history up to the edited message
+                                    conversation_history_edit = current_chat['messages'][:i] if i > 0 else []
+                                    
+                                    ai_prompt = st.session_state.assistant.generate_response(
+                                        new_content, sop_chunks, uploaded_context_edit, sop_count, conversation_history_edit
+                                    )
+                                    
+                                    # Build message array for OpenAI API
+                                    messages_edit = [
+                                        {"role": "system", "content": """You are a professional SOP assistant. Your responses should be:
+- EXTREMELY comprehensive and detailed (aim for 500-2000+ words - be as thorough as possible!)
+- Conversational and engaging, acknowledging previous context extensively
+- Well-structured with multiple clear headings, bullet points, numbered lists, and detailed examples
+- Practical with comprehensive step-by-step guidance and implementation details
+- Reference specific documents and sources, including relevant quotes
+- Build upon previous conversation context naturally and extensively
+- Include background information, context, best practices, potential pitfalls, and comprehensive explanations
+- Use detailed formatting with sections, subsections, and thorough coverage of all aspects
+- Never be brief - always provide maximum detail and comprehensive coverage"""},
+                                        {"role": "user", "content": ai_prompt}
+                                    ]
                                     
                                     response_placeholder = st.empty()
                                     full_response = ""
                                     
-                                    for token in st.session_state.assistant.stream_response(ai_prompt, st.session_state.selected_model):
+                                    for token in st.session_state.assistant.stream_response(messages_edit, st.session_state.selected_model):
                                         full_response += token
                                         response_placeholder.markdown(f"""
                                         <div class="assistant-message">
@@ -1323,13 +1375,33 @@ def main():
             # Prioritize document sources over SOP chunks
             all_sources = document_sources + sop_chunks
             
-            ai_prompt = st.session_state.assistant.generate_response(prompt, sop_chunks, all_uploaded_context, sop_count)
+            # Get conversation history (exclude current message)
+            conversation_history = current_chat['messages'][:-1] if len(current_chat['messages']) > 0 else []
+            
+            ai_prompt = st.session_state.assistant.generate_response(
+                prompt, sop_chunks, all_uploaded_context, sop_count, conversation_history
+            )
+            
+            # Build message array for OpenAI API
+            messages = [
+                {"role": "system", "content": """You are a professional SOP assistant. Your responses should be:
+- EXTREMELY comprehensive and detailed (aim for 500-2000+ words - be as thorough as possible!)
+- Conversational and engaging, acknowledging previous context extensively
+- Well-structured with multiple clear headings, bullet points, numbered lists, and detailed examples
+- Practical with comprehensive step-by-step guidance and implementation details
+- Reference specific documents and sources, including relevant quotes
+- Build upon previous conversation context naturally and extensively
+- Include background information, context, best practices, potential pitfalls, and comprehensive explanations
+- Use detailed formatting with sections, subsections, and thorough coverage of all aspects
+- Never be brief - always provide maximum detail and comprehensive coverage"""},
+                {"role": "user", "content": ai_prompt}
+            ]
             
             # Stream response
             response_placeholder = st.empty()
             full_response = ""
             
-            for token in st.session_state.assistant.stream_response(ai_prompt, st.session_state.selected_model):
+            for token in st.session_state.assistant.stream_response(messages, st.session_state.selected_model):
                 full_response += token
                 response_placeholder.markdown(f"""
                 <div class="assistant-message">
