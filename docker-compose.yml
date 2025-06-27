@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  ollama_new:
+    image: ollama/ollama:latest
+    container_name: sop_ollama_new
+    ports:
+      - "11435:11434"  # Using different port to avoid conflicts
+    volumes:
+      - ollama_data_new:/root/.ollama
+    environment:
+      - OLLAMA_ORIGINS=*
+    restart: unless-stopped
+
+  sop-chatbot-new:
+    build: .
+    container_name: sop_streamlit_new
+    ports:
+      - "8502:8501"  # Using different port to avoid conflicts
+    volumes:
+      - ./:/app
+      - ./chroma_db:/app/chroma_db
+      - ./processed_documents.json:/app/processed_documents.json
+      - Q:/AllSOPs:/app/Q_AllSOPs:ro
+    environment:
+      - OLLAMA_HOST=http://ollama_new:11434
+      - PYTHONUNBUFFERED=1
+    depends_on:
+      - ollama_new
+    restart: unless-stopped
+
+volumes:
+  ollama_data_new:

@@ -1,0 +1,452 @@
+{
+  "chat_1751038268": {
+    "title": "SOP Count Query",
+    "messages": [
+      {
+        "role": "user",
+        "content": "how many SOPs do we have in total?"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on the provided SOP documents, the total number of Standard Operating Procedures (SOPs) in the system is **9**. \n\nTo ensure clarity, here are the steps to verify this information:\n\n1. **Review Each Document**: Check each SOP document for its unique SOP number. The documents provided are:\n   - 200-10-400: AP Invoice Processing\n   - 200-10-401: Credit Memo Processing\n   - 200-10-402: Manual Payment Processing\n\n2. **Count All SOPs**: Confirm that there are additional SOPs not listed in the provided documents to reach the total of 9. \n\n3. **Documentation**: Maintain a list of all SOPs, including their numbers and titles, for easy reference and verification.\n\nIf you need further assistance or details about specific SOPs, please let me know!",
+        "sources": [
+          {
+            "text": "Accounting\n\nSOP No.\n\n200-10-400\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInvoice Processing (A/P)\n\n\n\n\n\n\n\n\n\n\n\nEffective Date:\n\n10/4/2018\n\n\n\n\n\n\n\nDate Originated:\n\n12/5/2002\n\n\n\nProcedure\n\n\tDepartment: Accounting\n\nDate Revised:\n\n10/5/2023\n\n\n\n\n\n\tPrepared By: Diane McIntosh\n\nRevision No.:\n\n1\n\n\n\n\n\nSupersedes No.:\n\nN/A\n\n\n\nOperational Areas:\n\nAccounting\n\n\n\nAPPROVAL\n\nSIGNATURES\n\nTheresa Paul\n\nOffice Administrator\n\nDate Approved:\n\n11/1/2017\n\n\n\n\n\nDiane McIntosh\n\nAccounting Manager\n\nDate Approved:\n\n10/3/2018\n\n\n\n\n\nDebra George\n\nChief Financial Officer\n\nDate Approved:\n\n10/4/2018\n\n\n\n\n\n\n\n\t\t\t\t\tI.\tPURPOSE:\n\n\t\t\t\t\t\tTo provide detailed instructions for efficiently processing supplier Invoices for payment.\n\n\t\t\t\t\t\n\n\t\t\t\t\tII.\tSCOPE:\n\n\t\t\t\t\t\tTo ensure a standardized method of accurate, timely payment processing of supplier Invoices for goods and services received to capture earned discounts for early payments, to provide internal control over payments, and to provide proper documentation required for internal and governmental reports in c",
+            "metadata": {
+              "chunk_index": 0,
+              "file_size": 67065,
+              "source": "200-10-400 FINAL AP Invoice Processing from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:22.963227",
+              "total_chunks": 17
+            },
+            "similarity": -0.1316225528717041
+          },
+          {
+            "text": "Accounting\n\nSOP No.\n\n200-10-402\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nManual Payment Processing from Ross Payables Module\n\n\n\n\n\n\n\n\n\n\n\nEffective Date:\n\n\n\n\n\n\n\n\n\nDate Originated:\n\n3/20/2008\n\n\n\nProcedure\n\n\tDepartment: Accounting\n\nDate Revised:\n\n10/5/2023\n\n\n\n\n\n\tPrepared By: Diane McIntosh\n\nRevision No.:\n\n2\n\n\n\n\n\nSupersedes No.:\n\nN/A\n\n\n\nOperational Areas:\n\nAccounting\n\n\n\nAPPROVAL\n\nSIGNATURES\n\n\n\nDiane McIntosh\n\nAccounting Manager\n\nDate Approved:\n\n11/4/2019\n\n\n\n\n\nFrank Ruben\n\nDirector of Finance\n\nDate Approved:\n\n12/2/2019\n\n\n\n\n\n\n\n\n\nDate Approved:\n\n\n\n\n\n\n\n\t\tPURPOSE:\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\tTo provide detailed instructions for efficiently processing supplier manual payments.\n\n\t\t\t\t\t\tThis procedure no longer used in Ross.  Process invoice using SOP 200-10-400 Invoice Processing (A/P)\n\n\t\t\t\t\t\tProcess checking Using SOP 200-10-500 Check Printing (A/PP\n\n\t\t\t\t\t\n\n\t\t\t\t\tSCOPE:\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\tTo ensure a standardized method of accurate, timely payment processing of supplier Invoices for goods and services received to capture earned discounts fo",
+            "metadata": {
+              "chunk_index": 0,
+              "file_size": 168016,
+              "source": "200-10-402-Rev2Draft1-Manual Payment Processing from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:24.405190",
+              "total_chunks": 14
+            },
+            "similarity": -0.19542109966278076
+          },
+          {
+            "text": "Accounting\n\nSOP No.\n\n200-10-401\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCredit Memo Processing from Ross Payables Module\n\n\n\n\n\n\n\n\n\n\n\nEffective Date:\n\n5/15/2018\n\n\n\n\n\n\n\nDate Originated:\n\n3/10/2008\n\n\n\nProcedure\n\n\tDepartment: Accounting\n\nDate Revised:\n\n10/5/2023\n\n\n\n\n\n\tPrepared By: Diane McIntosh\n\nRevision No.:\n\n2\n\n\n\n\n\nSupersedes No.:\n\nN/A\n\n\n\nOperational Areas:\n\nAccounting\n\n\n\nAPPROVAL\n\nSIGNATURES\n\nTheresa Paul\n\nOffice Administrator\n\nDate Approved:\n\n9/12/2017\n\n\n\n\n\nDiane McIntosh\n\nAccounting Manager\n\nDate Approved:\n\n10/17/2017\n\n\n\n\n\nDebra George\n\nChief Financial Officer\n\nDate Approved:\n\n5/15/2018\n\n\n\n\n\n\n\n\t\t\t\t\tI.\tPURPOSE:\n\n\t\t\t\t\t\tTo provide detailed instructions for processing Supplier-issued Credit Memos.\n\n\t\t\t\t\t\n\n\t\t\t\t\tII.\tSCOPE:\n\n\t\t\t\t\t\tTo ensure a standardized method of accurate, timely Credit Memo processing of Supplier Credit Memos for goods and services returned to Suppliers, to provide internal control over payments, and to provide proper documentation required for internal and governmental reports in compliance with",
+            "metadata": {
+              "chunk_index": 0,
+              "file_size": 67753,
+              "source": "200-10-401-Rev2Draft1-Credit Memo Processing from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:23.656646",
+              "total_chunks": 19
+            },
+            "similarity": -0.22160351276397705
+          },
+          {
+            "text": "Accounting\n\nSOP No.\n\n200-10-406\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReversing Assigned Check in Ross Payables\n\n\n\n\n\n\n\n\n\n\n\nEffective Date:\n\n5/15/2018\n\n\n\n\n\n\n\nDate Originated:\n\n4/10/2008\n\n\n\nProcedure\n\n\tDepartment: Accounting\n\nDate Revised:\n\n10/5/2023\n\n\n\n\n\n\tPrepared By: Diane McIntosh\n\nRevision No.:\n\n2\n\n\n\n\n\nSupersedes No.:\n\nN/A\n\n\n\nOperational Areas:\n\nAccounting\n\n\n\nAPPROVAL\n\nSIGNATURES\n\nTheresa Paul\n\nManager\n\nDate Approved:\n\n6/16/2017\n\n\n\n\n\nDiane McIntosh\n\nManager\n\nDate Approved:\n\n6/19/2017\n\n\n\n\n\nDebra George\n\nChief Financial Officer\n\nDate Approved:\n\n5/15/2018\n\n\n\n\n\n\n\n\t\t\t\t\tI.\tPURPOSE:\n\n\t\t\t\t\t\tTo provide detailed instructions for reversing an assigned check in the Ross software system.\n\n\t\t\t\t\t\n\n\t\t\t\t\tII.\tSCOPE:\n\n\t\t\t\t\t\tTo ensure a standardized method of accurate reverse-check processing of Supplier for goods and services, to provide internal control over payments, and to provide proper documentation required for internal and governmental reports in compliance with corporate standards.\n\n\t\t\t\t\t\n\n\t\t\t\t\tIII.",
+            "metadata": {
+              "chunk_index": 0,
+              "file_size": 63170,
+              "source": "200-10-406-Rev2Draft1-Reversing Assigned Check in Ross Payables.doc",
+              "timestamp": "2025-06-27T01:11:23.519680",
+              "total_chunks": 6
+            },
+            "similarity": -0.22796499729156494
+          },
+          {
+            "text": "Accounting\n\nSOP No.\n\n200-10-404\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrans Entry/Payment Process from the Ross Payables Module\n\n\n\n\n\n\n\n\n\n\n\nEffective Date:\n\n5/15/2018\n\n\n\n\n\n\n\nDate Originated:\n\n4/4/2008\n\n\n\nProcedure\n\n\tDepartment: Accounting\n\nDate Revised:\n\n10/5/2023\n\n\n\n\n\n\tPrepared By: Diane McIntosh\n\nRevision No.:\n\n1\n\n\n\n\n\nSupersedes No.:\n\nN/A\n\n\n\nOperational Areas:\n\nAccounting\n\n\n\nAPPROVAL\n\nSIGNATURES\n\nTheresa Paul\n\nOffice Administrator\n\nDate Approved:\n\n11/1/2017\n\n\n\n\n\nDiane McIntosh\n\nAccounting Manager\n\nDate Approved:\n\n11/9/2017\n\n\n\n\n\nDebra George\n\nChief Financial Officer\n\nDate Approved:\n\n5/15/2018\n\n\n\n\n\n\n\n\t\t\t\t\tI.\tPURPOSE:\n\n\t\t\t\t\t\tTo provide detailed instructions for printing automated checks for payment of Supplier goods and services by Accounts Payable (AP) Supervisor.\n\n\t\t\t\t\t\n\n\t\t\t\t\tII.\tSCOPE:\n\n\t\t\t\t\t\tTo ensure a standardized method of accurate, timely payment processing of Supplier invoices for goods and services received to capture earned discounts for early payments, to provide internal control over payments, and",
+            "metadata": {
+              "chunk_index": 0,
+              "file_size": 65312,
+              "source": "200-10-404 FINAL AP Trans Entry Payment Process from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:24.086539",
+              "total_chunks": 14
+            },
+            "similarity": -0.2610189914703369
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "can you categorize them based on their departement or operatoinal areas?"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on the provided SOP documents, we can categorize the documents based on their operational areas as follows:\n\n### 1. **Accounts Payable Operations**\n   - **Document: 200-10-101 FINAL Add New Payee and Link to Supplier from Ross Payable Module.doc**\n     - **Operational Area:** This document pertains to the process of adding new payees and linking them to suppliers within the accounts payable module. It includes guidelines on entering payee information, such as name, address, and tax identification numbers.\n     - **Key Steps:**\n       - Enter payee name and address correctly.\n       - Use specific addresses for employees.\n       - Select appropriate values from dropdown menus for tax identification and payee type.\n\n### 2. **Electronic Funds Transfer (EFT) Processing**\n   - **Document: 200-10-403 FINAL AP Processing EFT Payments from Ross Payables Module.doc**\n     - **Operational Area:** This document focuses on the processing of electronic funds transfer payments within the accounts payable system.\n     - **Key Steps:** (Although specific steps are not detailed in the provided text, typically this would include guidelines on initiating EFT payments, ensuring accuracy in payment amounts, and confirming payment processing.)\n\n### Summary\n- **Accounts Payable Operations** includes documents related to the management of supplier payees and their information.\n- **EFT Processing** focuses on the electronic payment processes within the accounts payable framework.\n\nIf you need further categorization or details on specific processes, please let me know!",
+        "sources": [
+          {
+            "text": "(1)\tIf the Payee name did not fit in the space allowed, you can continue the remainder of the Payee name on the first line of the address line.  The Payee address would then start on the second line.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t(2)\tIf the Payee is an employee, use 430 Parkson Road, Henderson, NV 89011-4040.\n\n\t\t\t\t\t\t\t\tg.\tCity:  Enter Supplier Payee City (do not use comma after city name).  Enter.\n\n\t\t\t\t\t\t\t\th.\tState:  Use the drop-down menu to get the Supplier Payee state.\n\n\t\t\t\t\t\t\t\ti.\tList of Values:  Click on the check mark.\n\n\t\t\t\t\t\t\t\tj.\tSelect the Supplier Payee State Code.\n\n\t\t\t\t\t\t\t\tk.\tPost Code:  Enter Supplier Payee Zip Code, Enter.\n(Example:  \"890114040\" Ross will display as \"89011-4040\".)\n\n\t\t\t\t\t\t\t\tl.\tPhone:  Enter Supplier Telephone Number, Enter.\n(Example:  \"7025649000\" Ross will display as \"(702) 564-9000.\")\n\n\t\t\t\t\t\t\t\tm.\tFax:  Enter Supplier Payee Fax Number, Enter.\n(Example:  \"702564-7825\" Ross will display as \"(702) 564-7825.\")\n\n\t\t\t\t\t\t\t\tn.\tTelex:  Leave blank field not used.  Enter.\n\n\t\t\t\t\t\t\t\to.",
+            "metadata": {
+              "chunk_index": 4,
+              "file_size": 61125,
+              "source": "200-10-101 FINAL Add New Payee and Link to Supplier from Ross Payable Module.doc",
+              "timestamp": "2025-06-27T01:11:22.831824",
+              "total_chunks": 9
+            },
+            "similarity": -0.7751306295394897
+          },
+          {
+            "text": "uidelines\\Work Instructions:\n\n\tN/A\n\n\tPCLE Forms\\Printables:\n\n\tN/A\n\n\tPCLE Checklists:\n\n\tN/A\n\n\tSharepoint\\Documents \u2013 Communication site\\eForms:\n\n\tN/A\n\n\tVideos:\n\n\tN/A\n\n\t\t\t\t\tHISTORY:\n\n\t\t\t\t\tDate\n\n\t\t\t\t\tPrevious SOP\n\n\t\t\t\t\tPrepared By\n\n\t\t\t\t\tReason for Revision\n\n\t\t\t\t\t03/31/08\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\tD. McIntosh\n\n\t\t\t\t\tInitial draft.  \n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\nLast printed 3/24/2016 9:59:00 AM\t\t\t1 of 1",
+            "metadata": {
+              "chunk_index": 10,
+              "file_size": 78769,
+              "source": "200-10-403 FINAL AP Processing EFT Payments from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:24.935410",
+              "total_chunks": 11
+            },
+            "similarity": -0.865226149559021
+          },
+          {
+            "text": "Required:  Use the down arrow.  Select Y for Yes.\n\n\t\t\t\t\t\t\t\tc.\t1099 TIN Type:  Use the down arrow to select the type.  Select the type, Enter.\n\n\t\t\t\t\t\t\t\t\t1 = Company\n\n\t\t\t\t\t\t\t\t\t2 = Individual\n\n\t\t\t\t\t\t\t\td.\tFederal ID:  Enter the Supplier Payee Tax ID Number, Enter.\n(Example:  \"999999999\" Ross will display as \"999-99-9999\")\n\n\t\t\t\t\t\t\t\te.\t1099 Amount Type:  Use the drop-down menu to get the List of Values, click on the check mark.  Select the type from the List of Values.\n\n\t\t\t\t\t\t\t\t\tNOTE:  Most Suppliers will be:  \"A\" Miscellaneous Income.  Use the second drop-down menu to get the List of Values, click on the check mark, and select the description from the List of Values.  Most Suppliers will be \"7\" Nonemployee compensation.\n\n\t\t\t\t\t\t\t\t f.\tConfirm:  Select Yes. \n\n\t\n7.\tSelect Payee Links.\n\n\t\ta.\tAt Payee Link Maintenance, hit the Insert key.\n\n\t\tb.\tSupplier Number:  Enter the 6-digit Supplier number that you would like to link the new Supplier Payee to.  Enter.",
+            "metadata": {
+              "chunk_index": 6,
+              "file_size": 61125,
+              "source": "200-10-101 FINAL Add New Payee and Link to Supplier from Ross Payable Module.doc",
+              "timestamp": "2025-06-27T01:11:22.885076",
+              "total_chunks": 9
+            },
+            "similarity": -0.888098955154419
+          },
+          {
+            "text": "Use the drop-down menu to get the Supplier Payee state. i. List of Values: Click on the check mark. j. Select the Code. k. Post Code: Enter Supplier Payee Zip Code, Enter. (Example: \"890114040\" Ross will display as \"89011-4040\".) l. Phone: Enter Supplier Telephone Number, Enter. (Example: \"7025649000\" Ross will display as \"(702) 564-9000.\") m. Fax: Enter Supplier Payee Fax Number, Enter. (Example: \"702564-7825\" Ross will display as \"(702) 564-7825.\") n. Telex: Leave blank field not used. Enter. o. Remarks: Enter Ross Supplier Number that you would like to link the new Payee to. Enter. (Example: Employee Supplier Link #100404.) p. Payment Type: Type CHQ. Enter. q. Payment Frequency: Type W. Enter. r. Payment Priority: Type 1. Enter. s. Override Payment Type: Type N. Enter. t. Tax Retainer: Ross will default to a blank field. u. Confirm: Select Yes. 6. 1099 required for the New Supplier Payee (if not required go to Step III.B.7): a. Select US Ten99s. b. 1099 Required: Use the down arrow. Select Y for Yes. c. 1099 TIN Type: Use the down arrow to select the type. Select the type, Enter. 1 = Company 2 = Individual d. Federal ID: Enter the Supplier Payee Tax ID Number, Enter. (Example: \"999999999\" Ross will display as \"999-99-9999\") e. 1099 Amount Type: Use the drop-down menu to get the List of Values, click on the check mark. Select the type from the List of Values. NOTE: Most Suppliers will be: \"A\" Miscellaneous Income. Use the second drop-down menu to get the List of Values, click on the check mark, and select the description from the List of Values. Most Suppliers will be \"7\" Nonemployee compensation. f. Confirm: Select Yes. 7. Select Payee Links. a. At Payee Link Maintenance, hit the Insert key. b. Supplier Number: Enter the 6-digit Supplier number that you would like to link the new Supplier Payee to. Enter. NOTE: All Payees must be linked to a Ross Supplier. c. Arrow up. d. Double-arrow forward to accept. e. Select Next Payee. Payee activated will show at the bottom of the Add Payees screen. f. Arrow up. g. Select Exit. IV. DOCUMENTATION / REFERENCES: A. IRS Form W-9 and Instructions B. IRS Form W-9 \u2013 completed C. IRS Form 1099-MISC and Instructions D. IRS Form 1099-INT and Instructions E. Supplier Invoice F. PCL Purchase Order G. Letter of Credit \u2013 approved H. Application for Credit \u2013 approved V. HISTORY:",
+            "metadata": {
+              "chunk_index": 1,
+              "file_path": "200-10-101 FINAL Add New Payee and Link to Supplier from Ross Payable Module.doc",
+              "indexed_at": "2025-06-27T08:19:16.167593",
+              "source": "200-10-101 FINAL Add New Payee and Link to Supplier from Ross Payable Module.doc",
+              "total_chunks": 2
+            },
+            "similarity": -0.8913719808438978
+          },
+          {
+            "text": ":  Select Yes.\n\n\t\t\t\t\t\tC.\tAP Transactions entry and payment:\n\n\t\t\t\t\t\t\t1.\tTrans Type:  IN.  Enter.\n\n\t\t\t\t\t\t\t2.\tDiv:  Ross will default to 00.\n\n\t\t\t\t\t\t\t3.\tBase:  Ross will default to USD Dollars.\n\n\t\t\t\t\t\t\t4.\tSupplier:  Enter the 6-digit Supplier Number.  Enter.\n\n\t\t\t\t\t\t\t5.\tPayee:  Ross will default the 6-digit Payee Number, Enter.\n\n\t\t\t\t\t\t\t\tNOTE:  If processing a miscellaneous Supplier, Ross will not default the Payee Number.  Enter the 6-digit Payee Number.  Enter.  Example of Miscellaneous Supplier would be Employee Reimbursement.\n\n\t\t\t\t\t\t\t6.\tDate:  Ross will default to the system date.  Change the date to the Supplier Invoice Date.  Enter.\n\n\t\t\t\t\t\t\t7.\tReference:  Enter the Supplier Invoice Number.  Enter.\n\n\t\t\t\t\t\t\t8.\tTrans Desc:  Enter a description of the supplier invoice to be paid.  Enter.\n\n\t\t\t\t\t\t\t9.\tCredit Terms:  Ross will default the Supplier's Standard Credit Terms.  Enter.\n\n\t\t\t\t\t\t\t10.\tTaxable:  Ross will default to N.  Use the down-arrow if a different Tax Code is needed.",
+            "metadata": {
+              "chunk_index": 3,
+              "file_size": 65312,
+              "source": "200-10-404 FINAL AP Trans Entry Payment Process from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:24.153849",
+              "total_chunks": 14
+            },
+            "similarity": -0.8950669765472412
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "give me total count of SOP"
+      },
+      {
+        "role": "assistant",
+        "content": "The total count of Standard Operating Procedures (SOPs) in the system is **9**.\n\nIf you need further details about each SOP or specific information regarding their content, please let me know!",
+        "sources": [
+          {
+            "text": "Accounting\n\nSOP No.\n\n200-10-400\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInvoice Processing (A/P)\n\n\n\n\n\n\n\n\n\n\n\nEffective Date:\n\n10/4/2018\n\n\n\n\n\n\n\nDate Originated:\n\n12/5/2002\n\n\n\nProcedure\n\n\tDepartment: Accounting\n\nDate Revised:\n\n10/5/2023\n\n\n\n\n\n\tPrepared By: Diane McIntosh\n\nRevision No.:\n\n1\n\n\n\n\n\nSupersedes No.:\n\nN/A\n\n\n\nOperational Areas:\n\nAccounting\n\n\n\nAPPROVAL\n\nSIGNATURES\n\nTheresa Paul\n\nOffice Administrator\n\nDate Approved:\n\n11/1/2017\n\n\n\n\n\nDiane McIntosh\n\nAccounting Manager\n\nDate Approved:\n\n10/3/2018\n\n\n\n\n\nDebra George\n\nChief Financial Officer\n\nDate Approved:\n\n10/4/2018\n\n\n\n\n\n\n\n\t\t\t\t\tI.\tPURPOSE:\n\n\t\t\t\t\t\tTo provide detailed instructions for efficiently processing supplier Invoices for payment.\n\n\t\t\t\t\t\n\n\t\t\t\t\tII.\tSCOPE:\n\n\t\t\t\t\t\tTo ensure a standardized method of accurate, timely payment processing of supplier Invoices for goods and services received to capture earned discounts for early payments, to provide internal control over payments, and to provide proper documentation required for internal and governmental reports in c",
+            "metadata": {
+              "chunk_index": 0,
+              "file_size": 67065,
+              "source": "200-10-400 FINAL AP Invoice Processing from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:22.963227",
+              "total_chunks": 17
+            },
+            "similarity": -0.19827687740325928
+          },
+          {
+            "text": "Accounting\n\nSOP No.\n\n200-10-402\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nManual Payment Processing from Ross Payables Module\n\n\n\n\n\n\n\n\n\n\n\nEffective Date:\n\n\n\n\n\n\n\n\n\nDate Originated:\n\n3/20/2008\n\n\n\nProcedure\n\n\tDepartment: Accounting\n\nDate Revised:\n\n10/5/2023\n\n\n\n\n\n\tPrepared By: Diane McIntosh\n\nRevision No.:\n\n2\n\n\n\n\n\nSupersedes No.:\n\nN/A\n\n\n\nOperational Areas:\n\nAccounting\n\n\n\nAPPROVAL\n\nSIGNATURES\n\n\n\nDiane McIntosh\n\nAccounting Manager\n\nDate Approved:\n\n11/4/2019\n\n\n\n\n\nFrank Ruben\n\nDirector of Finance\n\nDate Approved:\n\n12/2/2019\n\n\n\n\n\n\n\n\n\nDate Approved:\n\n\n\n\n\n\n\n\t\tPURPOSE:\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\tTo provide detailed instructions for efficiently processing supplier manual payments.\n\n\t\t\t\t\t\tThis procedure no longer used in Ross.  Process invoice using SOP 200-10-400 Invoice Processing (A/P)\n\n\t\t\t\t\t\tProcess checking Using SOP 200-10-500 Check Printing (A/PP\n\n\t\t\t\t\t\n\n\t\t\t\t\tSCOPE:\n\n\t\t\t\t\t\t\n\n\t\t\t\t\t\tTo ensure a standardized method of accurate, timely payment processing of supplier Invoices for goods and services received to capture earned discounts fo",
+            "metadata": {
+              "chunk_index": 0,
+              "file_size": 168016,
+              "source": "200-10-402-Rev2Draft1-Manual Payment Processing from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:24.405190",
+              "total_chunks": 14
+            },
+            "similarity": -0.20996499061584473
+          },
+          {
+            "text": "Accounting\n\nSOP No.\n\n200-10-406\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReversing Assigned Check in Ross Payables\n\n\n\n\n\n\n\n\n\n\n\nEffective Date:\n\n5/15/2018\n\n\n\n\n\n\n\nDate Originated:\n\n4/10/2008\n\n\n\nProcedure\n\n\tDepartment: Accounting\n\nDate Revised:\n\n10/5/2023\n\n\n\n\n\n\tPrepared By: Diane McIntosh\n\nRevision No.:\n\n2\n\n\n\n\n\nSupersedes No.:\n\nN/A\n\n\n\nOperational Areas:\n\nAccounting\n\n\n\nAPPROVAL\n\nSIGNATURES\n\nTheresa Paul\n\nManager\n\nDate Approved:\n\n6/16/2017\n\n\n\n\n\nDiane McIntosh\n\nManager\n\nDate Approved:\n\n6/19/2017\n\n\n\n\n\nDebra George\n\nChief Financial Officer\n\nDate Approved:\n\n5/15/2018\n\n\n\n\n\n\n\n\t\t\t\t\tI.\tPURPOSE:\n\n\t\t\t\t\t\tTo provide detailed instructions for reversing an assigned check in the Ross software system.\n\n\t\t\t\t\t\n\n\t\t\t\t\tII.\tSCOPE:\n\n\t\t\t\t\t\tTo ensure a standardized method of accurate reverse-check processing of Supplier for goods and services, to provide internal control over payments, and to provide proper documentation required for internal and governmental reports in compliance with corporate standards.\n\n\t\t\t\t\t\n\n\t\t\t\t\tIII.",
+            "metadata": {
+              "chunk_index": 0,
+              "file_size": 63170,
+              "source": "200-10-406-Rev2Draft1-Reversing Assigned Check in Ross Payables.doc",
+              "timestamp": "2025-06-27T01:11:23.519680",
+              "total_chunks": 6
+            },
+            "similarity": -0.246313214302063
+          },
+          {
+            "text": "Accounting\n\nSOP No.\n\n200-10-401\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCredit Memo Processing from Ross Payables Module\n\n\n\n\n\n\n\n\n\n\n\nEffective Date:\n\n5/15/2018\n\n\n\n\n\n\n\nDate Originated:\n\n3/10/2008\n\n\n\nProcedure\n\n\tDepartment: Accounting\n\nDate Revised:\n\n10/5/2023\n\n\n\n\n\n\tPrepared By: Diane McIntosh\n\nRevision No.:\n\n2\n\n\n\n\n\nSupersedes No.:\n\nN/A\n\n\n\nOperational Areas:\n\nAccounting\n\n\n\nAPPROVAL\n\nSIGNATURES\n\nTheresa Paul\n\nOffice Administrator\n\nDate Approved:\n\n9/12/2017\n\n\n\n\n\nDiane McIntosh\n\nAccounting Manager\n\nDate Approved:\n\n10/17/2017\n\n\n\n\n\nDebra George\n\nChief Financial Officer\n\nDate Approved:\n\n5/15/2018\n\n\n\n\n\n\n\n\t\t\t\t\tI.\tPURPOSE:\n\n\t\t\t\t\t\tTo provide detailed instructions for processing Supplier-issued Credit Memos.\n\n\t\t\t\t\t\n\n\t\t\t\t\tII.\tSCOPE:\n\n\t\t\t\t\t\tTo ensure a standardized method of accurate, timely Credit Memo processing of Supplier Credit Memos for goods and services returned to Suppliers, to provide internal control over payments, and to provide proper documentation required for internal and governmental reports in compliance with",
+            "metadata": {
+              "chunk_index": 0,
+              "file_size": 67753,
+              "source": "200-10-401-Rev2Draft1-Credit Memo Processing from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:23.656646",
+              "total_chunks": 19
+            },
+            "similarity": -0.2752019166946411
+          },
+          {
+            "text": "Accounting\n\nSOP No.\n\n200-10-404\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrans Entry/Payment Process from the Ross Payables Module\n\n\n\n\n\n\n\n\n\n\n\nEffective Date:\n\n5/15/2018\n\n\n\n\n\n\n\nDate Originated:\n\n4/4/2008\n\n\n\nProcedure\n\n\tDepartment: Accounting\n\nDate Revised:\n\n10/5/2023\n\n\n\n\n\n\tPrepared By: Diane McIntosh\n\nRevision No.:\n\n1\n\n\n\n\n\nSupersedes No.:\n\nN/A\n\n\n\nOperational Areas:\n\nAccounting\n\n\n\nAPPROVAL\n\nSIGNATURES\n\nTheresa Paul\n\nOffice Administrator\n\nDate Approved:\n\n11/1/2017\n\n\n\n\n\nDiane McIntosh\n\nAccounting Manager\n\nDate Approved:\n\n11/9/2017\n\n\n\n\n\nDebra George\n\nChief Financial Officer\n\nDate Approved:\n\n5/15/2018\n\n\n\n\n\n\n\n\t\t\t\t\tI.\tPURPOSE:\n\n\t\t\t\t\t\tTo provide detailed instructions for printing automated checks for payment of Supplier goods and services by Accounts Payable (AP) Supervisor.\n\n\t\t\t\t\t\n\n\t\t\t\t\tII.\tSCOPE:\n\n\t\t\t\t\t\tTo ensure a standardized method of accurate, timely payment processing of Supplier invoices for goods and services received to capture earned discounts for early payments, to provide internal control over payments, and",
+            "metadata": {
+              "chunk_index": 0,
+              "file_size": 65312,
+              "source": "200-10-404 FINAL AP Trans Entry Payment Process from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:24.086539",
+              "total_chunks": 14
+            },
+            "similarity": -0.2754174470901489
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "can you read this document?\n\n\ud83d\udcce **Attached:** Lesson Plan - ENC102 - Intro to Automatic Capsule Filling Machines .docx"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on the content of the uploaded document and the relevant SOP documents provided, here\u2019s a comprehensive analysis in response to the question, \"Can you read this document?\"\n\n### Analysis of the Uploaded Document\n\n1. **Content Overview**:\n   - The uploaded document is a lesson plan titled \"Introduction to Automatic Capsule Filling Machines,\" which is part of the training curriculum for the Production \u2013 Encap department at ProCaps Laboratories, Inc.\n   - It outlines various training types (facilitated classroom, self-paced eLearning, on-the-job training, and workshops) and provides a structured approach to teaching about automatic capsule filling machines.\n\n2. **Lesson Objectives**:\n   - The lesson aims to introduce foundational knowledge about automatic capsule filling machines and develop an understanding of their operation through the examination of the machine's seven stations.\n\n3. **Completion Criteria**:\n   - A knowledge assessment is required, with a passing score of 80% or higher.\n\n4. **Instruction Methods and Required Materials**:\n   - The lesson will be delivered through self-paced eLearning, requiring a computer with web access and a headset.\n\n5. **Historical Context**:\n   - The document provides a brief history of capsule manufacturing, detailing the evolution from manual filling methods to the introduction of automatic machines, which enhances understanding of the significance of the technology.\n\n### Cross-Referencing with Relevant SOP Information\n\n1. **SOP Documents**:\n   - The SOP documents provided (200-10-402, 200-10-403, and 200-10-406) primarily focus on payment processing and do not directly relate to the training content of the uploaded document. They include procedural guidelines for manual payment processing, EFT payments, and reversing assigned checks in the Ross Payables Module.\n\n2. **Relevance**:\n   - While the SOP documents do not directly pertain to the operation or training of automatic capsule filling machines, they highlight the structured nature of SOPs within the organization. This suggests that similar structured documentation and training protocols are likely in place for other operational areas, including production and equipment training.\n\n### Actionable Information\n\n1. **Reading the Document**:\n   - Yes, the uploaded document can be read and understood. It provides clear objectives, instructional methods, and historical context that are essential for training personnel on automatic capsule filling machines.\n\n2. **Implementation**:\n   - For effective training, ensure that all required materials (computer and headset) are available for participants.\n   - Utilize the lesson plan to guide the training sessions, focusing on the objectives and completion criteria to assess learner understanding.\n\n3. **Integration with SOPs**:\n   - While the uploaded document does not directly reference the SOPs, it is advisable to maintain alignment with organizational training standards. Consider developing SOPs for the operation of automatic capsule filling machines that mirror the structured approach seen in the payment processing SOPs.\n\n### Conclusion\n\nThe uploaded document is a well-structured training resource that can be effectively utilized for educating staff on automatic capsule filling machines. While the relevant SOP documents do not directly relate to this training, they underscore the importance of structured documentation across the organization. For further implementation, ensure that training aligns with existing SOP standards to maintain consistency and quality in training delivery.",
+        "sources": [
+          {
+            "text": "\nTraining Type:\t\n  Facilitated Classroom \u2013 Optional \n  Self-Paced eLearning\n  On-the-Job Training\n  Workshop\nLesson Overview\nLesson Title: Introduction to Automatic Capsule Filling Machines\nLesson Department(s): Production \u2013 Encap \nLesson Curricula/Series: Bosch Operator Pathway, Elanco Operator\nLesson Background and Description: \nCapsules are the foundation of ProCaps Laboratories, Inc. To be able to efficiently produce high quality capsules to provide for our consumers, state-of-the-art automa...",
+            "metadata": {
+              "source": "Lesson Plan - ENC102 - Intro to Automatic Capsule Filling Machines .docx",
+              "type": "uploaded_document"
+            },
+            "similarity": 1.0
+          },
+          {
+            "text": "\nTraining Type:\t\n  Facilitated Classroom \u2013 Optional \n  Self-Paced eLearning\n  On-the-Job Training\n  Workshop\nLesson Overview\nLesson Title: Introduction to Automatic Capsule Filling Machines\nLesson Department(s): Production \u2013 Encap \nLesson Curricula/Series: Bosch Operator Pathway, Elanco Operator\nLesson Background and Description: \nCapsules are the foundation of ProCaps Laboratories, Inc. To be able to efficiently produce high quality capsules to provide for our consumers, state-of-the-art automa...",
+            "metadata": {
+              "source": "Lesson Plan - ENC102 - Intro to Automatic Capsule Filling Machines .docx",
+              "type": "uploaded_document"
+            },
+            "similarity": 1.0
+          },
+          {
+            "text": "Number with a pink highlighter.\n\n\t\t\t\t\t\t\t8.\tOn the supplier invoice next to the Manual Payment Batch Number, write in red ink the Check Number, the date the manual payment was issued, and then initial.\n\n\t\t\t\t\t\n\n\t\t\t\t\t\nREFERENCES\\DOCUMENTATION:\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\tSOPs\\Policies\\Guidelines\\Work Instructions:\n\n\tN/A\n\n\tPCLE Forms\\Printables:\n\n\tN/A\n\n\tPCLE Checklists:\n\n\tN/A\n\n\tSharepoint\\Documents \u2013 Communication site\\eForms:\n\n\tN/A\n\n\tVideos:\n\n\tN/A\n\n\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\tHISTORY:\n\n\t\t\t\t\tDate\n\n\t\t\t\t\tPrevious SOP\n\n\t\t\t\t\tPrepared By\n\n\t\t\t\t\tReason for Revision\n\n\t\t\t\t\t03/20/08\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\tD. McIntosh\n\n\t\t\t\t\tInitial draft.  \n\n\t\t\t\t\t11/04/19\n\n\t\t\t\t\t200-10-402\n\n\t\t\t\t\tD. Mcintosh\n\n\t\t\t\t\tREV 2: Update to format and Logo. Changes throughout. \n\n\t\t\t\t\t\n\nLast printed 3/24/2016 9:59:00 AM\t\t\t1 of 1",
+            "metadata": {
+              "chunk_index": 12,
+              "file_size": 168016,
+              "source": "200-10-402-Rev2Draft1-Manual Payment Processing from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:24.683544",
+              "total_chunks": 14
+            },
+            "similarity": -0.2857983112335205
+          },
+          {
+            "text": "uidelines\\Work Instructions:\n\n\tN/A\n\n\tPCLE Forms\\Printables:\n\n\tN/A\n\n\tPCLE Checklists:\n\n\tN/A\n\n\tSharepoint\\Documents \u2013 Communication site\\eForms:\n\n\tN/A\n\n\tVideos:\n\n\tN/A\n\n\t\t\t\t\tHISTORY:\n\n\t\t\t\t\tDate\n\n\t\t\t\t\tPrevious SOP\n\n\t\t\t\t\tPrepared By\n\n\t\t\t\t\tReason for Revision\n\n\t\t\t\t\t03/31/08\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\tD. McIntosh\n\n\t\t\t\t\tInitial draft.  \n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\nLast printed 3/24/2016 9:59:00 AM\t\t\t1 of 1",
+            "metadata": {
+              "chunk_index": 10,
+              "file_size": 78769,
+              "source": "200-10-403 FINAL AP Processing EFT Payments from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:24.935410",
+              "total_chunks": 11
+            },
+            "similarity": -0.3442685604095459
+          },
+          {
+            "text": ".\tDOCUMENTATION \\ REFERENCES:  NONE\n\n\t\t\t\t\t\n\n\t\t\t\t\tV.\tHISTORY:\n\n\t\t\t\t\tDate\n\n\t\t\t\t\tPrior SOP No.\n\n\t\t\t\t\tSuperseded By\n\n\t\t\t\t\tReason for Revision\n\n\t\t\t\t\t04/10/08\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\t200-10-406\n\n\t\t\t\t\tInitial draft.  \n\n\t\t\t\t\t05/15/18\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\t200-10-406\n\n\t\t\t\t\tREV 2:  Major Changes to process.\n\n\t\t\t\t\t\n\n\n\nLast printed 3/24/2016 9:59:00 AM\t\t\t1 of 1",
+            "metadata": {
+              "chunk_index": 5,
+              "file_size": 63170,
+              "source": "200-10-406-Rev2Draft1-Reversing Assigned Check in Ross Payables.doc",
+              "timestamp": "2025-06-27T01:11:23.624047",
+              "total_chunks": 6
+            },
+            "similarity": -0.3715524673461914
+          },
+          {
+            "text": "es file.\n\n\t\t\t\t\t\n\n\t\t\t\t\tIV.\tDOCUMENTATION / REFERENCES:\n\n\t\t\t\t\t\tA.\tAP Invoice\n\n\t\t\t\t\t\t\tB.\tBatch Trans Edit List\n\n\t\t\t\t\t\t\tC.\tBatch Trans Audit Report\n\n\t\t\t\t\t\n\n\t\t\t\t\t\nV.\tHISTORY:\n\n\t\t\t\t\tDate\n\n\t\t\t\t\tPrior SOP No.\n\n\t\t\t\t\tSuperseded By\n\n\t\t\t\t\tReason for Revision\n\n\t\t\t\t\t12/05/02\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\t200-10-400\n\n\t\t\t\t\tInitial draft. \n\n\t\t\t\t\t12/07/04\n\n\t\t\t\t\t200-10-400\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\tANNUAL REVIEW:  Header \u2013 updated.  Procedure \u2013 condensed format to current style.\n\n\t\t\t\t\t03/07/08\n\n\t\t\t\t\t200-10-400\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\tREV 1:  Updated Header information.  Procedure \u2013 Revised to Ross software system.\n\n\t\t\t\t\t\n\n\n\nLast printed 3/24/2016 9:59:00 AM\t\t\t1 of 1",
+            "metadata": {
+              "chunk_index": 16,
+              "file_size": 67065,
+              "source": "200-10-400 FINAL AP Invoice Processing from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:23.337096",
+              "total_chunks": 17
+            },
+            "similarity": -0.41400039196014404
+          },
+          {
+            "text": "Accounting\n\nSOP No.\n\n200-10-404\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrans Entry/Payment Process from the Ross Payables Module\n\n\n\n\n\n\n\n\n\n\n\nEffective Date:\n\n5/15/2018\n\n\n\n\n\n\n\nDate Originated:\n\n4/4/2008\n\n\n\nProcedure\n\n\tDepartment: Accounting\n\nDate Revised:\n\n10/5/2023\n\n\n\n\n\n\tPrepared By: Diane McIntosh\n\nRevision No.:\n\n1\n\n\n\n\n\nSupersedes No.:\n\nN/A\n\n\n\nOperational Areas:\n\nAccounting\n\n\n\nAPPROVAL\n\nSIGNATURES\n\nTheresa Paul\n\nOffice Administrator\n\nDate Approved:\n\n11/1/2017\n\n\n\n\n\nDiane McIntosh\n\nAccounting Manager\n\nDate Approved:\n\n11/9/2017\n\n\n\n\n\nDebra George\n\nChief Financial Officer\n\nDate Approved:\n\n5/15/2018\n\n\n\n\n\n\n\n\t\t\t\t\tI.\tPURPOSE:\n\n\t\t\t\t\t\tTo provide detailed instructions for printing automated checks for payment of Supplier goods and services by Accounts Payable (AP) Supervisor.\n\n\t\t\t\t\t\n\n\t\t\t\t\tII.\tSCOPE:\n\n\t\t\t\t\t\tTo ensure a standardized method of accurate, timely payment processing of Supplier invoices for goods and services received to capture earned discounts for early payments, to provide internal control over payments, and",
+            "metadata": {
+              "chunk_index": 0,
+              "file_size": 65312,
+              "source": "200-10-404 FINAL AP Trans Entry Payment Process from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:24.086539",
+              "total_chunks": 14
+            },
+            "similarity": -0.442169189453125
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "tell me abou tthe file i attached.\n\n**Attached files:**\n\ud83d\udcce L&D Training Plan_Bosch Assistant.docx\n\ud83d\udcce Lesson Plan - ENC102 - Intro to Automatic Capsule Filling Machines .docx"
+      },
+      {
+        "role": "assistant",
+        "content": "### Analysis of the Uploaded Document: L&D Training Plan_Bosch Assistant.docx\n\n#### Overview\nThe document outlines a comprehensive training plan designed for new Bosch Assistants within the Encapsulation team at Bosch. The primary objective is to equip participants with the necessary knowledge and skills to effectively perform their roles, adhere to safety protocols, and ensure compliance with current Good Manufacturing Practices (cGMP).\n\n#### Key Components of the Training Plan\n\n1. **Training Objectives**\n   - Equip Bosch Assistants with foundational skills and organizational knowledge.\n   - Ensure proficiency in Bosch operations, cGMP, and safety protocols.\n   - Align training with organizational goals and compliance standards.\n\n2. **Training Structure**\n   - **Facilitated Courses**: In-person training sessions led by trainers.\n   - **Self-Paced Learning Modules**: Online courses available through the Learning Management System (LMS).\n   - **Job Shadowing**: Hands-on experience with experienced staff to reinforce learning.\n\n3. **On-the-Job Training (OJT)**\n   - Focuses on safe and effective operation of equipment.\n   - Provides hands-on experience with machine setup, operation, cleaning, and documentation.\n   - Reinforces adherence to Standard Operating Procedures (SOPs), safety, and quality standards.\n\n4. **Role of Bosch Assistant**\n   - The Bosch Assistant plays a critical role in producing high-quality capsules.\n   - The training plan is structured to facilitate a smooth transition into the role over the first four weeks.\n\n#### Detailed Weekly Breakdown\n\n**Week 1: Getting Oriented and Connected**\n- **Day 1: Orientation, Safety, and cGMP Overview**\n  - HR orientation and introduction to organizational history.\n  - Safety training covering emergency action plans and general safety practices.\n  - Overview of cGMP and Good Documentation Practices (GDP).\n\n- **Day 2: Job Responsibilities and Expectations**\n  - Review of job responsibilities with a supervisor.\n  - Facility tour for familiarization.\n  - Job shadowing on machine operation.\n  - eLearning on the encapsulation process and safety training.\n\n- **Day 3: Machine Familiarization**\n  - Identification of machine components and functions.\n  - Training on control panels and safety lockout points.\n  - eLearning on Bosch anatomy and lockout/tagout procedures.\n\n- **Day 4: Machine & System Familiarization**\n  - Continued job shadowing to reinforce machine operation and safety protocols.\n\n#### Programs and Tools to Review\n- PCLE (Process Control Learning Environment)\n- Microsoft Outlook\n- Seismic (presumably a project management tool)\n- Microsoft SharePoint\n\n#### Standard Operating Procedures (SOPs) Included\n- Introduction to the Role of Bosch Assistant\n- Emergency Action Plan\n- Good Documentation Practices\n- Encapsulation Process SOPs\n- Lockout Tagout (LOTO) procedures\n\n### Conclusion\nThe L&D Training Plan for Bosch Assistants is a structured and comprehensive program aimed at ensuring new employees are well-prepared for their roles. It combines theoretical knowledge with practical experience, emphasizing safety and compliance with industry standards. The first week is particularly focused on orientation and familiarization with the workplace, setting a solid foundation for the subsequent training activities.",
+        "sources": [
+          {
+            "text": "\n\nObjective:\nTo provide comprehensive training that equips the Bosch Assistant with the necessary knowledge and skills to efficiently execute role responsibilities, build foundational skills, and gain organizational knowledge. Through a combination of facilitated courses, self-paced modules via the Learning Management System (LMS), and job shadowing, participants will gain proficiency in Bosch operation, current Good Manufacturing Practices, and safety protocols, ensuring alignment with organiza...",
+            "metadata": {
+              "source": "L&D Training Plan_Bosch Assistant.docx",
+              "type": "uploaded_document"
+            },
+            "similarity": 1.0
+          },
+          {
+            "text": "\nTraining Type:\t\n  Facilitated Classroom \u2013 Optional \n  Self-Paced eLearning\n  On-the-Job Training\n  Workshop\nLesson Overview\nLesson Title: Introduction to Automatic Capsule Filling Machines\nLesson Department(s): Production \u2013 Encap \nLesson Curricula/Series: Bosch Operator Pathway, Elanco Operator\nLesson Background and Description: \nCapsules are the foundation of ProCaps Laboratories, Inc. To be able to efficiently produce high quality capsules to provide for our consumers, state-of-the-art automa...",
+            "metadata": {
+              "source": "Lesson Plan - ENC102 - Intro to Automatic Capsule Filling Machines .docx",
+              "type": "uploaded_document"
+            },
+            "similarity": 1.0
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "tell me about both attached docs."
+      },
+      {
+        "role": "assistant",
+        "content": "The two attached documents relate to processes within the Ross Payables Module, specifically focusing on Credit Memo Processing and Manual Payment Processing.\n\n1. **Credit Memo Processing (Document: 200-10-401-Rev2Draft1)**:\n   - **Purpose**: This document outlines the procedures for processing Credit Memos for goods and services returned to suppliers. It aims to ensure internal control over payments and maintain proper documentation for internal and governmental reporting in compliance with corporate standards.\n   - **Key Steps**:\n     - **Authorization Process**: \n       - Original documents are preferred for processing Credit Memos, but copies and faxes are acceptable.\n       - Credit Memos are issued by suppliers to reduce the payable amount for returned or damaged goods.\n\n2. **Manual Payment Processing (Document: 200-10-405 FINAL)**:\n   - **Purpose**: This document details the procedures for allocating manual payments within the Ross Payables Module. It serves as a guide for ensuring that manual payments are processed accurately and efficiently.\n   - **Key Features**:\n     - The document has undergone revisions, with the latest being a full process change noted in Revision 1 on May 15, 2018.\n     - It includes references to necessary documentation such as AP Invoices and audit reports to ensure proper tracking and accountability.\n\nFor further details, you may want to review the specific sections of each document that pertain to your needs. If you have any specific questions about the processes or need guidance on implementation, feel free to ask!",
+        "sources": [
+          {
+            "text": "dit Memos for goods and services returned to Suppliers, to provide internal control over payments, and to provide proper documentation required for internal and governmental reports in compliance with corporate standards.\n\n\t\t\t\t\t\n\n\t\t\t\t\tIII.\tPROCEDURE:\n\n\t\t\t\t\t\tA.\tAUTHORIZATION PROCESS:\n\n\t\t\t\t\t\t\t1.\tOriginal documents are preferred for processing Credit Memos, but copies and/or faxes are acceptable. \n\n\t\t\t\t\t\t\t2.\tCredit Memos \u2013 reduces payable to a Supplier (issued by a Supplier for returned or damaged merchandise, disputed or unsatisfactory services, price adjustments for issued Credit Memos, short-ship, etc.).\n\n\t\t\t\t\t\t\t\t\ta.\tCheck to ensure the Credit Memo is approved.\n\n\t\t\t\t\t\t\t\t\tb.\tVerify price and quantities to original Credit Memo.\n\n\t\t\t\t\t\t\t\t\tc.\tAttach any shipping documentation with Proof of Delivery to Supplier.\n\n\t\t\t\t\t\t\t\t\td.",
+            "metadata": {
+              "chunk_index": 1,
+              "file_size": 67753,
+              "source": "200-10-401-Rev2Draft1-Credit Memo Processing from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:23.674448",
+              "total_chunks": 19
+            },
+            "similarity": -0.4954953193664551
+          },
+          {
+            "text": "Superseded By\n\n\t\t\t\t\tReason for Revision\n\n\t\t\t\t\t04/08/08\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\t200-10-405\n\n\t\t\t\t\tInitial draft.  \n\n\t\t\t\t\t05/15/18\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\t200-10-405\n\n\t\t\t\t\tREV 1:  Full Process Change.",
+            "metadata": {
+              "chunk_index": 6,
+              "file_size": 123132,
+              "source": "200-10-405 FINAL AP Allocate Manual Payment Processing from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:23.489886",
+              "total_chunks": 7
+            },
+            "similarity": -0.5533167123794556
+          },
+          {
+            "text": "es file.\n\n\t\t\t\t\t\n\n\t\t\t\t\tIV.\tDOCUMENTATION / REFERENCES:\n\n\t\t\t\t\t\tA.\tAP Invoice\n\n\t\t\t\t\t\t\tB.\tBatch Trans Edit List\n\n\t\t\t\t\t\t\tC.\tBatch Trans Audit Report\n\n\t\t\t\t\t\n\n\t\t\t\t\t\nV.\tHISTORY:\n\n\t\t\t\t\tDate\n\n\t\t\t\t\tPrior SOP No.\n\n\t\t\t\t\tSuperseded By\n\n\t\t\t\t\tReason for Revision\n\n\t\t\t\t\t12/05/02\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\t200-10-400\n\n\t\t\t\t\tInitial draft. \n\n\t\t\t\t\t12/07/04\n\n\t\t\t\t\t200-10-400\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\tANNUAL REVIEW:  Header \u2013 updated.  Procedure \u2013 condensed format to current style.\n\n\t\t\t\t\t03/07/08\n\n\t\t\t\t\t200-10-400\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\tREV 1:  Updated Header information.  Procedure \u2013 Revised to Ross software system.\n\n\t\t\t\t\t\n\n\n\nLast printed 3/24/2016 9:59:00 AM\t\t\t1 of 1",
+            "metadata": {
+              "chunk_index": 16,
+              "file_size": 67065,
+              "source": "200-10-400 FINAL AP Invoice Processing from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:23.337096",
+              "total_chunks": 17
+            },
+            "similarity": -0.5612168312072754
+          },
+          {
+            "text": ".\tDOCUMENTATION \\ REFERENCES:  NONE\n\n\t\t\t\t\t\n\n\t\t\t\t\tV.\tHISTORY:\n\n\t\t\t\t\tDate\n\n\t\t\t\t\tPrior SOP No.\n\n\t\t\t\t\tSuperseded By\n\n\t\t\t\t\tReason for Revision\n\n\t\t\t\t\t04/10/08\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\t200-10-406\n\n\t\t\t\t\tInitial draft.  \n\n\t\t\t\t\t05/15/18\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\t200-10-406\n\n\t\t\t\t\tREV 2:  Major Changes to process.\n\n\t\t\t\t\t\n\n\n\nLast printed 3/24/2016 9:59:00 AM\t\t\t1 of 1",
+            "metadata": {
+              "chunk_index": 5,
+              "file_size": 63170,
+              "source": "200-10-406-Rev2Draft1-Reversing Assigned Check in Ross Payables.doc",
+              "timestamp": "2025-06-27T01:11:23.624047",
+              "total_chunks": 6
+            },
+            "similarity": -0.5916042327880859
+          },
+          {
+            "text": "f Supplier invoices for goods and services received to capture earned discounts for early payments, to provide internal control over payments, and to provide proper documentation required for internal and governmental reports in compliance with corporate standards.\n\n\t\t\t\t\t\n\n\t\t\t\t\tIII.\tPROCEDURE:\n\n\t\t\t\t\t\tA.\tAUTHORIZATION TO allocate a manual PAYMENT:\n\n\t\t\t\t\t\t\tAuthorization from Accounts Payable Supervisor.\n\n\t\t\t\t\t\tB.\tverification of supplier INVOICE:\n\n\t\t\t\t\t\t\t1.\tVerify the Supplier Invoice Number that you would like to allocate the Manual Payment.\n\n\t\t\t\t\t\t\t2.\tCheck the Supplier Invoice for the \"Posted\" Stamp, Posting Date, Transaction Number and the processor's initials.\n\n\t\t\t\t\t\t\t3.\tVerify the Check Stub and the 6-digit Manual Payment is the payment that you would like to allocate.\n\n\t\t\t\t\t\tC.\tAllocate manual payment:\n\n\t\t\t\t\t\t\t1.\tLog into the Ross software system.\n\n\t\t\t\t\t\t\t2\tSelect:  Payables, Payments, Manual Payments, and Allocate Payments.\n\n\t\t\t\t\t\t\t3.",
+            "metadata": {
+              "chunk_index": 1,
+              "file_size": 123132,
+              "source": "200-10-405 FINAL AP Allocate Manual Payment Processing from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:23.384705",
+              "total_chunks": 7
+            },
+            "similarity": -0.5967843532562256
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "tell me about both attached doc again"
+      },
+      {
+        "role": "assistant",
+        "content": "The uploaded document titled **\"Lesson Plan - ENC102 - Intro to Automatic Capsule Filling Machines\"** provides a comprehensive overview of a training lesson designed for employees at ProCaps Laboratories, Inc. Here\u2019s a detailed analysis of the content:\n\n### Document Overview\n- **Training Types**: The lesson can be delivered through various methods, including facilitated classroom sessions, self-paced eLearning, on-the-job training, and workshops.\n- **Lesson Title**: The focus is on introducing automatic capsule filling machines, which are crucial for the production of high-quality capsules.\n\n### Lesson Background and Description\n- The lesson builds upon a previous course (ENC101: Intro to Capsules) and aims to equip learners with foundational knowledge about automatic capsule filling machines and their operational mechanics.\n- The document emphasizes the importance of these machines in ensuring efficiency and quality in capsule production.\n\n### Lesson Objectives\n1. To introduce foundational knowledge about automatic capsule filling machines.\n2. To develop an understanding of the machine's workings, specifically focusing on the seven stations involved in the capsule filling process.\n\n### Lesson Completion Criteria\n- Participants must achieve a knowledge assessment score of 80% or higher to complete the lesson successfully.\n\n### Instruction Methods and Required Materials\n- The lesson will utilize self-paced eLearning methods, requiring a computer with web access and a headset for audio components.\n\n### Key Content Sections\n- **What is an Automatic Capsule Filling Machine?**: This section outlines the evolution of capsule manufacturing from manual methods to modern automation.\n- **Historical Context**: The document provides a timeline of capsule filling methods, detailing advancements from manual filling in the early 20th century to the introduction of fully automatic machines in the 1960s and 1970s, leading to the high-precision machines used today.\n- **Modern Automatic Capsule Filling Machines**: Describes the complexity and efficiency of current machines, which can produce up to 450,000 capsules per hour.\n\n### Seven Stations of Automatic Capsule Filling Machines\nThe document elaborates on the seven stations involved in the capsule filling process, including:\n1. **Rectification and Separation**: Ensures capsules are oriented correctly for filling.\n2. **Faulty Capsule Ejection**: Removes capsules that do not meet quality standards.\n3. **Dosing**: The critical station responsible for ensuring each capsule receives the correct dosage.\n\n### Instructional Aids\n- The lesson plan includes job aids such as a Capsule Filling Timeline and a guide to the Automatic Capsule Filling Machine Stations, as well as exercises to reinforce learning.\n\n### Conclusion\nThe lesson plan is structured to provide a thorough understanding of automatic capsule filling machines, their historical context, and their operational mechanics. It is designed to be adaptable for various training formats, ensuring that employees gain the necessary knowledge to operate these machines effectively.\n\nThis analysis focuses solely on the content of the uploaded lesson plan document and does not incorporate any SOP information, as it is not directly relevant to the lesson plan's objectives or content.",
+        "sources": [
+          {
+            "text": "\nTraining Type:\t\n  Facilitated Classroom \u2013 Optional \n  Self-Paced eLearning\n  On-the-Job Training\n  Workshop\nLesson Overview\nLesson Title: Introduction to Automatic Capsule Filling Machines\nLesson Department(s): Production \u2013 Encap \nLesson Curricula/Series: Bosch Operator Pathway, Elanco Operator\nLesson Background and Description: \nCapsules are the foundation of ProCaps Laboratories, Inc. To be able to efficiently produce high quality capsules to provide for our consumers, state-of-the-art automa...",
+            "metadata": {
+              "source": "Lesson Plan - ENC102 - Intro to Automatic Capsule Filling Machines .docx",
+              "type": "uploaded_document"
+            },
+            "similarity": 1.0
+          },
+          {
+            "text": "22.\tUpdating will appear.  Select Ok.\n\n\t\t\t\t\t\tF.\tVERIFY THE MANUAL PAYMENT:\n\n\t\t\t\t\t\t\t1.\tReturn to the Payables module, select Inquires, Supplier.\n\n\t\t\t\t\t\t\t2.\tAt Supplier Inquiry, Div:  Enter 00, Enter.\n\n\t\t\t\t\t\t\t3.\tSupplier:  Enter the Ross Supplier Number, Enter.\n\n\t\t\t\t\t\t\t4.\tSelect Detail Account.\n\n\t\t\t\t\t\t\t5.\tDouble-arrow forward.\n\n\t\t\t\t\t\t\t6.\tHit the End key; this will take you to the end of the supplier's transactions.  \n\n\t\t\t\t\t\t\t7.\tVerify that the manual payment hit the correct supplier.  The Manual Payment will be at the end of the supplier transactions and will show as a credit to the supplier's account.\n\n\t\t\t\t\t\t\t8.\tDouble-arrow forward.\n\n\t\t\t\t\t\t\t9.\tSelect Exit.\n\n\t\t\t\t\t\n\tG.\tTYPE THE MANUAL PAYMENT:\n\n\t\t\t\t\t\t\t1.\tType the manual payment in the same format as the checks that are processed in the Ross Payables Module.  See Sample below.\n\n\t\t\t\t\t\n\n\t\t\t\t\t\t\t2.\tDate:  Type the Date of the supplier invoice.\n\n\t\t\t\t\t\t\t3.\tInvoice #:  Type the supplier invoice number.\n\n\t\t\t\t\t\t\t4.",
+            "metadata": {
+              "chunk_index": 10,
+              "file_size": 168016,
+              "source": "200-10-402-Rev2Draft1-Manual Payment Processing from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:24.632254",
+              "total_chunks": 14
+            },
+            "similarity": -0.5606024265289307
+          },
+          {
+            "text": "ch, click on the red arrow next to the MP Seq.\n\n\t\t\t\t\t\t\t12.\tCorrect:  Select No.\n\n\t\t\t\t\t\t\t13.\tMake corrections as needed.\n\n\t\t\t\t\t\t\t14.\tCorrect:  Select, Yes.\n\n\t\t\t\t\t\t\t15.\tDouble-arrow forward.\n\n\t\t\t\t\t\t\t16.\tArrow Up.\n\n\t\t\t\t\t\t\t17.\tSelect Payables, Payments, Manual Payments, and Approve Payments.\n\n\t\t\t\t\t\t\t18.\tDivision:  Enter 00, Enter.\n\n\t\t\t\t\t\t\t19.\tManual Payment Batch Number:  Ross will default the last Manual Payment Processed, Enter.\n\n\t\t\t\t\t\t\t20.\tAt Detail Lines, verify the Payment Reference, which is the check number.  The  Supplier Number entered.\n\n\t\t\t\t\t\t\t\tNOTE:  The suppler name will appear under the supplier name.  Verify the Payee Number, the Transaction Date and the Transaction Value.  If all the information is correct, double-arrow forward.\n\n\t\t\t\t\t\t\t21.\tApprove:  Select Yes.\n\n\t\t\t\t\t\t\t22.\tUpdating will appear.  Select Ok.\n\n\t\t\t\t\t\tF.\tVERIFY THE MANUAL PAYMENT:\n\n\t\t\t\t\t\t\t1.\tReturn to the Payables module, select Inquires, Supplier.\n\n\t\t\t\t\t\t\t2.\tAt Supplier Inquiry, Div:  Enter 00, Enter.",
+            "metadata": {
+              "chunk_index": 9,
+              "file_size": 168016,
+              "source": "200-10-402-Rev2Draft1-Manual Payment Processing from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:24.608846",
+              "total_chunks": 14
+            },
+            "similarity": -0.5877867937088013
+          },
+          {
+            "text": "anding Balance:  Leave blank.  Enter.\n\n\t\t\t\t\t\n\te.\tmanual payment allocations:\n\n\t\t\t\t\t\t\t1.\tClick on the red arrow located at the left of the Transaction Number.\n\n\t\t\t\t\t\t\t2.\tAllocations screen will appear.  Click on the red arrow located at the left of the Tr Ty \"MP.\"\n\n\t\t\t\t\t\t\t3.\tAllocation Tran USD.  Ross will default the Manual Payment amount.  Hit the Tab key.\n\n\t\t\t\t\t\t\t4.\tDouble-arrow forward.\n\n\t\t\t\t\t\t\t5.\tOutstanding Credit Transactions to Allocate will appear.  This screen will show the allocation.\n\n\t\t\t\t\t\t\t6.\tDouble-arrow forward.\n\n\t\t\t\t\t\t\t7.\tArrow up.\n\n\t\t\t\t\t\tf.\tverify the manual payment:\n\n\t\t\t\t\t\t\t1.\tReturn to the Payables module.  Select Inquiries and Supplier.\n\n\t\t\t\t\t\t\t2.\tAt Supplier Inquiry:  Division:  Enter 00.  Enter.\n\n\t\t\t\t\t\t\t3.\tSupplier:  Enter the 6-digit Supplier Number.  Enter.\n\n\t\t\t\t\t\t\t4.\tSelect Detail Account.\n\n\t\t\t\t\t\t\t5.\tDouble-arrow forward.\n\n\t\t\t\t\t\t\t6.\tHit the End key.  This will take you to the end of the Supplier's transactions.\n\n\t\t\t\t\t\t\t7.",
+            "metadata": {
+              "chunk_index": 4,
+              "file_size": 123132,
+              "source": "200-10-405 FINAL AP Allocate Manual Payment Processing from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:23.454401",
+              "total_chunks": 7
+            },
+            "similarity": -0.5978890657424927
+          },
+          {
+            "text": "Superseded By\n\n\t\t\t\t\tReason for Revision\n\n\t\t\t\t\t04/08/08\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\t200-10-405\n\n\t\t\t\t\tInitial draft.  \n\n\t\t\t\t\t05/15/18\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\t200-10-405\n\n\t\t\t\t\tREV 1:  Full Process Change.",
+            "metadata": {
+              "chunk_index": 6,
+              "file_size": 123132,
+              "source": "200-10-405 FINAL AP Allocate Manual Payment Processing from Ross Payables Module.doc",
+              "timestamp": "2025-06-27T01:11:23.489886",
+              "total_chunks": 7
+            },
+            "similarity": -0.5995651483535767
+          },
+          {
+            "text": "ake you to the end of the Supplier's transactions.\n\n\t\t\t\t\t\t\t7.\tVerify that the payment was returned to the Supplier's account.  The Returned Payment will show at the end of the Supplier's transactions.  The transaction type will be \"RC\" (Returned Check).  The reference number will be the check number that was voided.  The Document Reference will also be the check number that was voided.\n\n\t\t\t\t\t\t\t\tNOTE:  All the Supplier Invoices that were paid on the original check that was Reversed/Returned will now show available for payment.\n\n\t\t\t\t\t\t\t8.\tDouble-arrow forward.\n\n\t\t\t\t\t\t\t9.\tSelect Exit.\n\n\t\t\t\t\t\t\t10.\tStamp the reversed check and check stub with the VOID Stamp.\n\n\t\t\t\t\t\t\t11.\tTear off the signature line.\n\n\t\t\t\t\t\t\t12.\tFile the Reversed/Void Check with all other void and canceled checks.\n\n\t\t\t\t\t\n\n\t\t\t\t\tIV.\tDOCUMENTATION \\ REFERENCES:  NONE\n\n\t\t\t\t\t\n\n\t\t\t\t\tV.\tHISTORY:\n\n\t\t\t\t\tDate\n\n\t\t\t\t\tPrior SOP No.\n\n\t\t\t\t\tSuperseded By\n\n\t\t\t\t\tReason for Revision\n\n\t\t\t\t\t04/10/08\n\n\t\t\t\t\tN/A\n\n\t\t\t\t\t200-10-406\n\n\t\t\t\t\tInitial draft.",
+            "metadata": {
+              "chunk_index": 4,
+              "file_size": 63170,
+              "source": "200-10-406-Rev2Draft1-Reversing Assigned Check in Ross Payables.doc",
+              "timestamp": "2025-06-27T01:11:23.612061",
+              "total_chunks": 6
+            },
+            "similarity": -0.6030029058456421
+          }
+        ]
+      }
+    ],
+    "created": "2025-06-27T08:31:08.687038",
+    "documents": {
+      "Lesson Plan - ENC102 - Intro to Automatic Capsule Filling Machines .docx": "\nTraining Type:\t\n  Facilitated Classroom \u2013 Optional \n  Self-Paced eLearning\n  On-the-Job Training\n  Workshop\nLesson Overview\nLesson Title: Introduction to Automatic Capsule Filling Machines\nLesson Department(s): Production \u2013 Encap \nLesson Curricula/Series: Bosch Operator Pathway, Elanco Operator\nLesson Background and Description: \nCapsules are the foundation of ProCaps Laboratories, Inc. To be able to efficiently produce high quality capsules to provide for our consumers, state-of-the-art automatic capsule filling machines were brought into ProCaps to not only meet the demand for capsules, but to ensure the highest quality capsules get to our consumers.\n\nBuilding upon ENC101: Intro to Capsules, this lesson has been developed to provide basic, introductory information about automatic capsule filling machines and how they work that can be adapted to eLearning and used to guide On-the-Job Training for theoretical knowledge and knowledge application.\nLesson Objectives \nIntroduce foundational knowledge about automatic capsule filling machines.\nDevelop a basic understanding of how the automatic capsule filling machines work by looking at the seven stations of the machine.\nLesson Completion Criteria\nKnowledge Assessment: \u2265 80%\nInstruction Methods\nSelf-paced eLearning \nRequired Materials\nComputer with web access\nHeadset\nExercises and Job Aids\nJob Aid: Capsule Filling Timeline\nJob Aid: Automatic Capsule Filling Machine Stations\nMatching Exercise\nLesson Plan Color Coding Key\nBlack text is regular, in-process lesson content.\nBlue text is an indicator or aid for the facilitator or instructor for a knowledge component and reference information.\nRed text indicates critical information.\n\n\nWhat is an Automatic Capsule Filling Machine?\nHistory of Capsule Manufacturing\nEarly 20th Century: Manual Filling\nCapsule filled by hand (usually done by pharmacists)\nSlow and tedious process\nInconsistent fills and dosages\nOnly suitable for small operations and quantities; still used in compounding pharmacies and for personal use\nImages of the historic methods:\nPharmacists would use a \u201cPunch Method\u201d \u2013 after mixing powders in a mortar and pestle, pharmacists would separate the capsules and then pour a pile of powder, take the capsule body and \u201cpunch\u201d it in the powder until the body was full; they would rejoin the cap and the body manually.\nLater, small instruments were made to hold the capsule bodies in place, pharmacists or technicians could scrape the powder over the holes and tamp the powder down with a pin, still had to manually separate and close the capsules.\n1930s \u2013 1950s: Semi-Automatic Machines\nMachines separated and closed empty capsules; still had to be manually filled\nCan still be found in some compounding pharmacies!\n1960s \u2013 1970s: Early Automatic Machines\nIntroduction of fully automatic capsule filling machines\nMechanically separate, fill, and close capsules\n\nWidely adopted by pharmaceutical companies due to being able to handle high volumes with consistent dosing\n1980s \u2013 Present: Modern Automation\nPrecise and programmable machines\nIncreased efficiency through integration of digital controls, sensors, and robotics\nCan fill capsules with powders, pellets, liquids, mini-tablets, mini-capsules\nSome automatic capsule filling machines can make up to 450,000 capsules per hour!\nCapsule Filling Methods/Machines Through the Years (Imagery)\n\n\n\nInteractive visual timeline with examples of the equipment\nModern Automatic Capsule Filling Machines \nModern Automatic Capsule Filling Machines are high-precision, heavy machinery that contains a lot of moving parts.\nWhile different models may vary in design and capacity, the basic capsule filling lifecycle remains consistent. \nThe machines that we use, internally referred to as \u201cBosch,\u201d are comprised of 7 stations.\nEach of these stations are made up of various parts that are timed, calibrated, and aligned to ensure consistent, efficient production.\nTo make a capsule, we have to introduce the empty capsules and the filler material, separate the caps from the bodies, fill them with material, rejoin and lock the capsules, and eject the finished capsules from the machine. \nSeven Stations for Automatic Capsule Filling\n\n\nRectification and Separation (different stations but work together for capsule introduction to the machine)\nImagine pouring a bunch of socks into a drawer and then organizing them so the openings of the socks all face you. That\u2019s what the rectification station does but for capsules at a very high speed.\nAt 1:05 \u2013 1:16 in GKF Capsylon - Bosch capsule filling maschine.mp4\n1st step for starting the capsule filling cycle \nGoal is to go from random orientation to rectified, body-down orientation and then separate the cap from the body.\nRectification and Separation are typically grouped together.\nRectification:\nCapsule hopper \u2013 assembly includes an adjustable gate to increase or decrease the flow of the empty capsules into the machine.\nMagazine \u2013 Block that has vertical chutes that empty capsules fall into from the hopper to get them into a vertical position.\nWhen capsules are loaded into the empty capsule hopper, they will fill the hopper in all different orientations. For a successful fill cycle, the capsule needs to fill the segments (where the capsules are carried through the cycle) with the body pointing down and the cap pointing up.\nVertical Sorting Fingers: Push the capsules from a horizontal position to vertical into the segments with the cap on top and the body on the bottom.\nFun Fact: Manufacturers recommend that the pointed edge of the vertical fingers align with the part of the capsule that is just slightly below the cap edge (image)\nHorizontal Sorting Fingers: Push the capsule forward in a horizontal position with the body position.\nSorting Block: Keeps the empty capsules aligned in a position that prepares them for being deposited into segments.\nSeparation\nSegments: Blocks that have holes, or bores, to house the cap and body. Consist of corresponding upper and lower segments. \nUpper segments house the caps\nLower segments house the bodies\nSeparation Pins: Pins that fit into the suction shoe below the lower segment that ensure the body does not go lower than intended \nSuction Shoe: A block with holes that sits below the lower segments at the separation station that allows vacuum suction to come through to separate the body of the capsule from the cap.\nFlip Card Component:\nIf the vacuum suction is not strong enough, operators may notice the caps are not separating from the bodies.\nIf the vacuum suction is too strong, operators may notice that the caps are popping out of the upper segments.\n\n\nFigure 1 How the vertical and horizontal fingers work together\nSummary: The separation station is essential for opening the capsule so the body can be filled. By using vacuum-assisted separation, it ensures smooth, controlled process that sets the stage for accurate and efficient capsule filling. Empty capsule quality \u2013 moisture content and shell flexibility \u2013 significantly affect separation success.\n\nFaulty Capsule Ejection \nAt 1:17 \u2013 1:37 in GKF Capsylon - Bosch capsule filling maschine.mp4\nIf capsules do not separate, they will be ejected from the cycle at the Faulty Capsule Ejection station.\nThis helps ensure that segments do not get jammed with capsule fragments and that the powder intended for a capsule does not transfer onto a whole capsule. \nThese scenarios could lead to issues through the cycle if not caught \u2013 capsule fragments can get stuck in the segment bores.\nDosing (also referred to as the filling station)\nAt 1:40 \u2013 2:00 in GKF Capsylon - Bosch capsule filling maschine.mp4\nThink of the dosing station as the \u201cheart\u201d of the capsule filling process. Its main job is to ensure that each capsule receives the exact dosage of product needed to meet quality, safety, and regulatory standards.\nThe dosing station is critical as this is where the powder is introduced to the machine. \nPowder Hopper \nA cone-shaped funnel where powder is first introduced to the machine.\nThe hopper is shaped like a funnel to help powder flow downwards.\nInside the funnel is a feed auger that twists like a screw to ensure the powder moves downward consistently into the powder bowl.\nPowder Bowl & Powder Sensor\nA bowl that fills with powder from the funnel \u2013 creates a powder bed to sit on top of the dosing disc.\nThe powder sensor ensures there the amount of powder in the powder bowl is consistently uniform. Can be adjusted based on the characteristics of the powder.\nDosing Disc (also known as a tamping disc)\n\nhttps://youtu.be/FADerVQ-tPg\nA disc with holes, or bores, that comes in various sizes (referring to the dosing disc thickness, measured in millimeters) to accommodate different powder doses and capsule sizes.\nEnsures capsules are filled with consistent fill weights as specified in the formula by creating a slug. \nThe slug is a unit dose of powder that is compressed together as it moves through the 5 tamping stations.\nThe sixth station, also called the transfer station, pushes the slug down into the capsule body. \nTamping Pin Guide Ring\nA plate that ensures the tamping pins are aligned with the dosing disc bores.\nTamping Pin Block and Tamping Pins\nTo compress the powder, there are five tamping blocks that house tamping pins that move up and down to compress the powder. \nThis creates a slug that ensures consistent dosing/fill weights.\nTypically, the first tamping station is set to apply the most pressure and the fifth station is set to apply the least pressure.\nMay differ based on powder characteristics \u2013 some powders do not create slugs. \nSome powders reverse the pressures with the first station applying the least amount of pressure (or none at all!) and the fifth station applying the most.\nThe sixth station, also called the transfer station, pushes the slug down into the capsule body. \nClosing\nAt 2:01 \u2013 2:12 in GKF Capsylon - Bosch capsule filling maschine.mp4\nAfter capsules are filled, the cap and body are rejoined and locked at the closing station.\nClosing Pins \nThe upper and lower segment realign after the dosing station. \nThe next station has pins that will come up underneath the lower segment to gently push the body of the capsule up in to the cap.\nCounter Closing Block\nThe upper segments that are holding the cap are located underneath a counter closing block. As the pins push the body upward into the cap, the counter bearing will provide light pressure to the cap to ensure when the cap and body are joined, they will lock.\nProblems can arise from the closing station if:\nThe upper and lower segments are not properly aligned \u2013 capsules can get splits/tucks due to collision of the cap and body edges\nThe filler material is very coarse and/or sticky causing powder to buildup in the segment bores and changing the shape of the body resulting in a body fold.\nFinished Capsule Ejection\nAt 2:13 \u2013 2:18 in GKF Capsylon - Bosch capsule filling maschine.mp4\nAfter the capsule has been filled, closed, and locked, the finished capsule will be ejected from the machine.\nThe ejection station has ejection pins located underneath the lower segment that will push the capsules upwards.\nA tuft of air will then trigger to push the capsules out of the machine in a sloped chute.\nThese capsules will run through a polisher and land in a drum or container.\nProper alignment and timing is critical to avoid capsule breakage or jamming which could lead to machine stoppage or product quality issues.\nCleaning\nAt 2:31 \u2013 2:51 in GKF Capsylon - Bosch capsule filling maschine.mp4\nAfter the finished capsules are ejected, the emptied segments rotate to the cleaning section where pins with compressed air blow out any powder or capsule debris to ready them for starting the cycle all over again.\nSummary\nWe reviewed the history of capsule filling machines and learned that capsule filling has gone from a fully manual process to an automatic process using specially designed machines.\nWe introduced the way a capsule is made in modern capsule filling machines.\nWe described the basic functions of the seven stations that make up automatic capsule filling machines.\nExercises\nMatching Stations\nMatch the description with the station. \nRectification: Readies the capsules in a vertical orientation with the cap on top and the body on the bottom.\nSeparation: Ensures the cap is housed in the upper segment and the body is housed in the lower segment.\nFaulty Capsule Ejection: Removes non-separated empty capsules from the segments\nDosing: Prepares the filler material to the target dose and fills the capsule.\nClosing: Rejoins the cap and body and locks them closed.\nFinished Capsule Ejection: Removes the filled and locked capsules from the machine.\nCleaning: Removes debris from segments to prepare them for another cycle.\n\nFinal Knowledge Assessment\nWhich option reflects the sequence of the automatic capsule filling machine?\nDosing, Faulty Capsule Ejection, Closing, Rectification & Separation, Finished Capsule Ejection, Cleaning\nRectification & Separation, Dosing, Faulty Capsule Ejection, Closing, Finished Capsule Ejection, Cleaning\nFaulty Capsule Ejection, Rectification & Separation, Dosing, Closing, Cleaning, Finished Capsule Ejection\nRectification & Separation, Faulty Capsule Ejection, Dosing, Closing, Finished Capsule Ejection, Cleaning\n\nTrue or False: The closing station uses a tuft of air to join the cap and body of a capsule.\nTrue\nFalse\n\nThe term \u201cslug\u201d when talking about the capsule filling operation, refers to:\nA slimy soft-bodies animal\nHow much power a baseball player uses when hitting a ball\nA compressed unit of powder \nA tamping pin\n\nThe tamping pins are a part of the:\nRectification station\nSeparation station\nCleaning station\nDosing station\n\nThe dosing station has [x] tamping blocks and a transfer station.\n3\n4\n5\n6\n\nThe vacuum suction used for separating caps from bodies should be [blank] if the caps cand bodies are not separating.\nDecreased\nIncreased\nShut off\nInterrupted\n\nTrue or False: The transfer station is part of the dosing station.\nTrue\nFalse\n\nThe auger in the powder funnel helps to:\nPush empty capsules down into the magazine.\nPush powder down into the powder bowl consistently.\nPush powder through the vacuum hoses.\nRegulate the temperature in the hopper by spreading out the powder.\n\nDefects that come from the closing station include:\nPowder buildup in the dosing station\nSplits and tucks\nEmpty capsules\nCrushed empty capsules\n\nWhy is the dosing station considered the \u201cheart\u201d of the capsule filling process?\nBecause it pulses like a heart does.\nBecause it ensures the capsules are clean and free from excess powder.\nBecause it introduces empty capsules into the machine.\nBecause it fills the capsules with the required amount of material needed to meet quality, safety, and regulatory requirements.\nReferences and Resources\nSection 6.1 Related Policies and Procedures\nN/A\nSection 6.2 Additional References and Resources\nCapsule Filling: Making Cap Tucks a Thing of the Past | Tablets & Capsules Magazine\nCapsule machine\nEncapsulation_ Problem and Remedies | PPT\nGKF Capsylon - Bosch capsule filling maschine.mp4\nGKF1500S Instruction manual\ngkf-capsylon.pdf\nHistory and Benefits of Two-Piece Gelatin Capsules\nhttps://youtu.be/dKCXc0ds6EU?si=4qrDJvS6JF54f0JP\nInstruction Manual 3005 - 716510.pdf\nSpare Parts 3005 716510.pdf\nTroubleshooting Capsule Separation: Following Five Steps to Reduce Waste and Downtime | Tablets & Capsules Magazine\nCapsule filling machines: types, Benefits and expert tips | CapsCanada\nSection 6.3 Glossary of Terms \nAuger: A screw-like mechanical component that moves powder from the hopper into the dosing bowl designed to control the flow of powder. \nRectification Station: The module, or station, of the capsule filling machine the aligns the 2-piece hardshell gelatin capsule in a vertical position.\nSeparation Station: The mechanism that uses vacuum and mechanical gripping to separate the cap from the body of a 2-piece hardshell capsule after rectification, preparing it for dosing.\nFaulty Capsule Ejection Station: Removes capsules from the cycle that did not properly separate.\nDosing Station: The station of the machine responsible for accurately measuring and dispensing the required amount of product into the body of each separated capsule.\nClosing Station: The station of the machine where the cap and body are rejoined and securely locked.\nFinished Capsule Ejection Station: The station of the machine that discharges properly filled, closed, and intact capsules from the cycle to the polisher.\nCleaning Station: The station of the machine that removes dust and debris from the segment bores to ensure the segments are in good condition to proceed through the cycle.\n",
+      "L&D Training Plan_Bosch Assistant.docx": "\n\nObjective:\nTo provide comprehensive training that equips the Bosch Assistant with the necessary knowledge and skills to efficiently execute role responsibilities, build foundational skills, and gain organizational knowledge. Through a combination of facilitated courses, self-paced modules via the Learning Management System (LMS), and job shadowing, participants will gain proficiency in Bosch operation, current Good Manufacturing Practices, and safety protocols, ensuring alignment with organizational training goals and compliance standards.\nSOPs\nTRAINING  \nTraining will consist of a combination of facilitated courses, self-paced learning modules via our Learning Management System, and various job shadows. \n\nOJT (On the Job Training)\nPurpose: On the job training for a Bosch Assistant ensures the individual can safely and effectively operate the equipment in line with current Good Manufacturing Practices (cGMP). It provides hands-on experience with machine setup, operation, cleaning, and documentation, while reinforcing adherence to SOPs, safety, and quality standards. This training supports consistent product quality and regulatory compliance.\nBosch Assistant\nObjective: To provide hands-on experience and practical application of the encapsulation processes. \nPrograms to Review:\nPCLE\nMicrosoft Outlook\nSeismic\nMicrosoft SharePoint\nSOPs:\n\nIntroduction to the Role of Bosch Assistant\nWelcome to Your Role as Bosch Assistant\nWe\u2019re excited to have you join the Encapsulation team! As a Bosch Assistant, you play a critical role in producing high quality capsules. This plan outlines your first 4 weeks, designed to help you gain foundational knowledge, connect with your team, and begin exploring the tools, equipment, and systems you\u2019ll be working with.\nWEEK 1 \u2013 Getting Oriented and Connected \nDay 1: Orientation, Safety, and cGMP Overview\nHR \u2013 Orientation \nL&D \u2013 Organization History\nSafety \u2013 Emergency Action Plan, General Safety, Heat-Related Illnesses\nQuality \u2013 current Good Manufacturing Practices (cGMP)\nL&D \u2013 Good Documentation Practices (GDP)\nDay 2: Job Responsibilities and Expectations\nSupervisor \u2013 Review of job responsibilities and expectations (1 hour)\nSupervisor/Lead \u2013 Facility tour and familiarization (1 hour)\nTrainer/Lead \u2013 Job shadow machine operation (1 hour)\nL&D \u2013 Encapsulation Process Training (eLearning)(30 minutes)\nL&D/Safety \u2013 HSI Safety Training (1 hour)\nPCLE \u2013 Standard Operating Procedures (1 hour)\n840-20-000: Encapsulation Process\nTrainer/Lead \u2013 Job Shadow (2 hours)\nDay 3: Machine Familiarization\nTrainer/Lead \u2013 Identification of machine components and functions\nTrainer/Lead \u2013 Control Panel and Safety Lockout Points\nL&D \u2013 Introduction to Bosch Anatomy (eLearning)\nL&D \u2013 Lockout Tagout (eLearning)\nPCLE \u2013 Standard Operating Procedures\n840024: LOTO Bosch Encapsulators\n840-20-142: Bosch Disassembly 1500\nTrainer/Lead \u2013 Job Shadow\nDay 4: Machine & System Familiarization\nL&D/Safety \u2013 Near Miss Reporting (eLearning) (15 minutes)\nL&D/Safety \u2013 Bloodborne Pathogens (eLearning) (15 minutes)\nTrainer/Lead \u2013 PCLE Functions\nProduction Schedule\nJob Search\nAdding Shifts\nBatch Ticket Console\nStartup and Cleaning Checklists\nTrainer/Lead \u2013 Job Shadow \u2013 Bosch Operation\nTrainer/Lead \u2013 Bosch Disassembly \u2013 (Hands-on assistance with disassembly)\nSupervisor \u2013 Weekly Check-In\nWEEK 2 \u2013 Diving Into Bosch Operation\nDay 1: Quality in the Encapsulation Process\nL&D \u2013 Introduction to Common Capsule Defects (eLearning) (30 Minutes)\nProduction \u2013 Job Shadow Capsule Inspection (2 Hours)\nQuality Assurance \u2013 Job Shadow AQL Inspection (2 Hours)\nPCLE \u2013 Standard Operating Procedures (30 Minutes)\n750009: Capsule Inspection AQL Criteria\n750-20-330: QA Audit: Encapsulation\nTrainer/Lead \u2013 Job Shadow Bosch Operation (4 Hours)\nIn-Process Quality Checks (Fill Weight, Capsule Gauge)\nDefect Troubleshooting\nIn-Process Capsule Rework (Capsule Grinding)\nPCLE \u2013 Standard Operating Procedures (1 Hour)\n840118: Encapsulation Defect Sampling\n750-20-021: Handling Capsules for Grinding\n840-20-800: Encapsulation Rework Process\n750-20-331: Encapsulation \u2013 Fill Weight Verification\nDay 2: Machine and System Familiarization (Continued) \nL&D \u2013 Disassembling the Capsule Orientation Station (eLearning microlesson)\nL&D \u2013 Disassembling the Dosing Station (eLearning microlesson)\nTrainer/Lead \u2013 Job Shadow \u2013 PCLE Navigation\nHands-On with Supervision \u2013 Data Entry\nStartup Checklist\nCleaning Calculator\nCleaning Checklist\nTrainer/Lead \u2013 Job Shadow \u2013 Bosch Adjustments, Bosch Operation\nPCLE \u2013 Standard Operating Procedures\n840-20-120: Bosch Operation: Model 705\nDay 3: Machine and System Familiarization (Continued)\nTrainer/Lead \u2013 Job Shadow and Hands-On Experience \u2013 Bosch Changeover/Setup, Operation (Full Shift)\nHands-On \u2013 Changeover/Setup \u2013 Create new job shift in system\nHands-On \u2013 Changeover/Setup \u2013 Pull materials, review Batch Ticket, machine settings.\nHands-On \u2013 Verify checklists\nHands-On \u2013 Fill hoppers, perform in-process quality checks\nHands-On \u2013 Verify checklists\nHands-On \u2013 Scan drums in and scan drums out\nDay 4: Machine and System Familiarization (Continued)\nBosch Setup Operator \u2013 Job Shadow \u2013 Bosch Assembly/Disassembly\nTrainer/Lead \u2013 Job Shadow and Hands-On Experience\nHands-On \u2013 Print and apply In-Process Labels\nHands-On \u2013 Adjust machine settings from HMI (with guidance and supervision)\nHands-On \u2013 Inventory movement for completed drums\nPCLE \u2013 Standard Operating Procedures\n840-00-050: Work-In-Process Labeling\nSupervisor \u2013 Weekly Check-In\nWEEK 3 \u2013 Developing Working Knowledge of the Encapsulation Process\nDay 1: Machine and System Familiarization (Continued)\nBosch Setup Operator \u2013 Job Shadow and Hands-On Experience\nHands-On \u2013 Polisher and vacuum setup\nHands-On \u2013 Bosch setup\nTrainer/Lead \u2013 Job Shadow and Hands-On Experience\nHands-On \u2013 Full Startup/Changeover procedure (with guidance and supervision)\nHands-On \u2013 Machine operation with (with guidance and supervision)\nHands-On \u2013 In-process quality checks\nHands-On \u2013 Machine shutdown and end of shift cleaning\nPCLE \u2013 Standard Operating Procedures\n840-20-310: Polisher T-200: Operation\nDay 2: Machine and System Familiarization (Continued)\nBosch Setup Operator \u2013 Job Shadow and Hands-On Experience\nHands-On \u2013 Polisher and vacuum setup\nHands-On \u2013 Bosch setup\nTrainer/Lead \u2013 Job Shadow and Hands-On Experience\nHands-On \u2013 Full Startup/Changeover procedure (with guidance and supervision)\nHands-On \u2013 Machine operation with (with guidance and supervision)\nHands-On \u2013 In-process quality checks\nHands-On \u2013 Machine adjustments and troubleshooting\nHands-On \u2013 Machine shutdown and end of shift cleaning\nDay 3: Machine and System Familiarization (Continued)\nPCLE \u2013 Standard Operating Procedures\n840038: Bosch Troubleshooting Guide\n840090: Encap Fill Weight Problems\n840091: Encap Separation Problems\n840092: Encap Splits/Dents Problems\nTrainer/Lead \u2013 Job Shadow and Hands-On Experience\nHands-On \u2013 Full Startup/Changeover procedure (with guidance and supervision)\nHands-On \u2013 Machine operation with (with guidance and supervision)\nHands-On \u2013 In-process quality checks\nHands-On \u2013 Machine adjustments and troubleshooting\nHands-On \u2013 Machine shutdown and end of shift cleaning\nDay 4: Machine and System Familiarization (Continued)\nTrainer/Lead \u2013 Job Shadow and Hands-On Experience\nHands-On \u2013 Full Startup/Changeover procedure (with guidance and supervision)\nHands-On \u2013 Machine operation with (with guidance and supervision)\nHands-On \u2013 In-process quality checks\nHands-On \u2013 Machine adjustments and troubleshooting\nHands-On \u2013 Machine shutdown and end of shift cleaning\nSupervisor \u2013 Weekly check-in\nWEEK 4 \u2013 Training Review and Competency Assessment\nDay 1: Review Machine and System Training\nThe Supervisor, Lead, and other designated personnel (i.e. Process Engineer, Learning & Development) will collaborate to assess performance during this week.\nTrainer/Lead \u2013 Hands-On Experience/Training Review\nHands-On \u2013 Full Startup/Changeover procedure (with guidance and supervision)\nHands-On \u2013 Machine operation with (with guidance and supervision)\nHands-On \u2013 In-process quality checks\nHands-On \u2013 Machine adjustments and troubleshooting (with guidance and supervision)\nHands-On \u2013 Machine shutdown and end of shift cleaning (with guidance and supervision)\nSafety, Setup/Assembly Performance Assessment\nDay 2: Review Machine and System Training\nTrainer/Lead - Hands-On Experience/Training Review\nHands-On \u2013 Full Startup/Changeover procedure (with guidance and supervision)\nHands-On \u2013 Machine operation with (with guidance and supervision)\nHands-On \u2013 In-process quality checks\nHands-On \u2013 Machine adjustments and troubleshooting (with guidance and supervision)\nHands-On \u2013 Machine shutdown and end of shift cleaning (with guidance and supervision)\nOperation, Disassembly/Cleaning Performance Assessment\nDay 3: Review Machine and System Training\nTrainer/Lead - Hands-On Experience/Training Review\nHands-On \u2013 Full Startup/Changeover procedure (with guidance and supervision)\nHands-On \u2013 Machine operation with (with guidance and supervision)\nHands-On \u2013 In-process quality checks\nHands-On \u2013 Machine adjustments and troubleshooting (with guidance and supervision)\nHands-On \u2013 Machine shutdown and end of shift cleaning (with guidance and supervision)\nPerformance Assessment (Continued)\nDay 4: Certification Exam\nLearning Management System \u2013 Bosch Assistant I Certification Exam\nSupervisor \u2013 Weekly Check-In; Performance Review\nTrainer/Lead - Hands-On Experience/Training Review\n\n\n\nRole of Bosch Assistant \u2013 Supporting Documents\n\nRole of Bosch Assistant \u2013 Schedule Condensed View\n\n"
+    }
+  }
+}
